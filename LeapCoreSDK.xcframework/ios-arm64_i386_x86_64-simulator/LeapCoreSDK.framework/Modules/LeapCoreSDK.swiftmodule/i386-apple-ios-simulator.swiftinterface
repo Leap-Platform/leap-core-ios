@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LeapCoreSDK
+import Foundation
+import Gzip
+import Swift
+import UIKit
+import WebKit
+@objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
+  @objc func startMediaFetch()
+  @objc func hasClientCallBack() -> Swift.Bool
+  @objc func sendEvent(event: Swift.Dictionary<Swift.String, Any>)
+  @objc func performNativeAssist(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCode: Swift.String)
+  @objc func performWebAssist(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, localeCode: Swift.String)
+  @objc func performNativeDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
+  @objc func performWebDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
+  @objc func performNativeStage(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc func performWebStage(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc func updateRect(rect: CoreGraphics.CGRect, inWebView: UIKit.UIView?)
+  @objc func updateView(inView: UIKit.UIView)
+  @objc func presentLeapButton(for iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, iconEnabled: Swift.Bool)
+  @objc func removeAllViews()
+}
+@objc public protocol LeapAUICallback : ObjectiveC.NSObjectProtocol {
+  @objc func getDefaultMedia() -> Swift.Dictionary<Swift.String, Any>
+  @objc func triggerEvent(identifier: Swift.String, value: Any)
+  @objc func getWebScript(_ identifier: Swift.String) -> Swift.String?
+  @objc func getCurrentLanguageOptionsTexts() -> Swift.Dictionary<Swift.String, Swift.String>
+  @objc func getLanguagesForCurrentInstruction() -> Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>
+  @objc func getIconInfoForCurrentInstruction() -> Swift.Dictionary<Swift.String, Any>?
+  @objc func getLanguageHtmlUrl() -> Swift.String?
+  @objc func getLanguageCode() -> Swift.String
+  @objc func getTTSCodeFor(code: Swift.String) -> Swift.String?
+  @objc func didPresentAssist()
+  @objc func failedToPerform()
+  @objc func didDismissView(byUser: Swift.Bool, autoDismissed: Swift.Bool, panelOpen: Swift.Bool, action: Swift.Dictionary<Swift.String, Any>?)
+  @objc func leapTapped()
+  @objc func optionPanelOpened()
+  @objc func optionPanelStopClicked()
+  @objc func optionPanelClosed()
+  @objc func disableAssistance()
+  @objc func disableLeapSDK()
+  @objc func didLanguageChange(from previousLanguage: Swift.String, to currentLanguage: Swift.String)
+  @objc func flush()
+  @objc func receiveAUIEvent(action: Swift.Dictionary<Swift.String, Any>)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LeapCore : ObjectiveC.NSObject {
+  @objc public static let shared: LeapCoreSDK.LeapCore
+  public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
+  @objc deinit
+}
