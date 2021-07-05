@@ -1,11 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LeapCoreSDK
 import Foundation
-import Gzip
 import Swift
 import UIKit
 import WebKit
+import zlib
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
   @objc func startMediaFetch()
   @objc func hasClientCallBack() -> Swift.Bool
@@ -47,5 +47,40 @@ import WebKit
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LeapCore : ObjectiveC.NSObject {
   @objc public static let shared: LeapCoreSDK.LeapCore
   public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
+  public func initialize(withToken token: Swift.String, projectId: Swift.String, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
+  public func startProject(projectId: Swift.String)
   @objc deinit
+}
+public struct CompressionLevel : Swift.RawRepresentable {
+  public let rawValue: Swift.Int32
+  public static let noCompression: LeapCoreSDK.CompressionLevel
+  public static let bestSpeed: LeapCoreSDK.CompressionLevel
+  public static let bestCompression: LeapCoreSDK.CompressionLevel
+  public static let defaultCompression: LeapCoreSDK.CompressionLevel
+  public init(rawValue: Swift.Int32)
+  public init(_ rawValue: Swift.Int32)
+  public typealias RawValue = Swift.Int32
+}
+public struct GzipError : Swift.Error {
+  public enum Kind : Swift.Equatable {
+    case stream
+    case data
+    case memory
+    case buffer
+    case version
+    case unknown(code: Swift.Int)
+    public static func == (a: LeapCoreSDK.GzipError.Kind, b: LeapCoreSDK.GzipError.Kind) -> Swift.Bool
+  }
+  public let kind: LeapCoreSDK.GzipError.Kind
+  public let message: Swift.String
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
+extension Data {
+  public var isGzipped: Swift.Bool {
+    get
+  }
+  public func gzipped(level: LeapCoreSDK.CompressionLevel = .defaultCompression) throws -> Foundation.Data
+  public func gunzipped() throws -> Foundation.Data
 }
