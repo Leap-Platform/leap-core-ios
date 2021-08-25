@@ -218,6 +218,8 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
 - (void)triggerEventWithIdentifier:(NSString * _Nonnull)identifier value:(id _Nonnull)value;
 - (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSString *> * _Nonnull)getCurrentLanguageOptionsTexts SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)getLanguagesForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
@@ -235,6 +237,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)disableLeapSDK;
 - (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
 - (void)flush;
+- (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
 @end
@@ -495,6 +498,8 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
 - (void)triggerEventWithIdentifier:(NSString * _Nonnull)identifier value:(id _Nonnull)value;
 - (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSString *> * _Nonnull)getCurrentLanguageOptionsTexts SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)getLanguagesForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
@@ -512,6 +517,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)disableLeapSDK;
 - (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
 - (void)flush;
+- (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
 @end
@@ -772,6 +778,8 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
 - (void)triggerEventWithIdentifier:(NSString * _Nonnull)identifier value:(id _Nonnull)value;
 - (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSString *> * _Nonnull)getCurrentLanguageOptionsTexts SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)getLanguagesForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
@@ -789,6 +797,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)disableLeapSDK;
 - (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
 - (void)flush;
+- (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
 @end

@@ -25,6 +25,8 @@ import zlib
   @objc func getDefaultMedia() -> Swift.Dictionary<Swift.String, Any>
   @objc func triggerEvent(identifier: Swift.String, value: Any)
   @objc func getWebScript(_ identifier: Swift.String) -> Swift.String?
+  @objc func isFlowMenu() -> Swift.Bool
+  @objc func getFlowMenuInfo() -> Swift.Dictionary<Swift.String, Swift.Bool>?
   @objc func getCurrentLanguageOptionsTexts() -> Swift.Dictionary<Swift.String, Swift.String>
   @objc func getLanguagesForCurrentInstruction() -> Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>
   @objc func getIconInfoForCurrentInstruction() -> Swift.Dictionary<Swift.String, Any>?
@@ -42,6 +44,7 @@ import zlib
   @objc func disableLeapSDK()
   @objc func didLanguageChange(from previousLanguage: Swift.String, to currentLanguage: Swift.String)
   @objc func flush()
+  @objc func getProjectParameters() -> [Swift.String : Any]?
   @objc func receiveAUIEvent(action: Swift.Dictionary<Swift.String, Any>)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LeapCore : ObjectiveC.NSObject {
@@ -49,6 +52,7 @@ import zlib
   public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
   public func initialize(withToken token: Swift.String, projectId: Swift.String, uiManager: LeapCoreSDK.LeapAUIHandler?, resetProject: Swift.Bool) -> LeapCoreSDK.LeapAUICallback?
   public func startProject(projectId: Swift.String, resetProject: Swift.Bool)
+  public func embedProject(_ projectId: Swift.String)
   @objc deinit
 }
 public struct CompressionLevel : Swift.RawRepresentable {
