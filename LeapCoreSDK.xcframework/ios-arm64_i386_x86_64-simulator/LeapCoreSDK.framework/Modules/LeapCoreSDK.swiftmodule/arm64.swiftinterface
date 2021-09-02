@@ -50,7 +50,6 @@ import zlib
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LeapCore : ObjectiveC.NSObject {
   @objc public static let shared: LeapCoreSDK.LeapCore
   public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
-  public func initialize(withToken token: Swift.String, projectId: Swift.String, uiManager: LeapCoreSDK.LeapAUIHandler?, resetProject: Swift.Bool) -> LeapCoreSDK.LeapAUICallback?
   public func startProject(projectId: Swift.String, resetProject: Swift.Bool)
   public func embedProject(_ projectId: Swift.String)
   @objc deinit
