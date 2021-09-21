@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LeapCoreSDK
 import Foundation
 import Swift
@@ -23,7 +23,6 @@ import zlib
 }
 @objc public protocol LeapAUICallback : ObjectiveC.NSObjectProtocol {
   @objc func getDefaultMedia() -> Swift.Dictionary<Swift.String, Any>
-  @objc func triggerEvent(identifier: Swift.String, value: Any)
   @objc func getWebScript(_ identifier: Swift.String) -> Swift.String?
   @objc func isFlowMenu() -> Swift.Bool
   @objc func getFlowMenuInfo() -> Swift.Dictionary<Swift.String, Swift.Bool>?
