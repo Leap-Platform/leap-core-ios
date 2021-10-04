@@ -18,6 +18,7 @@ import zlib
   @objc func performWebStage(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
   @objc func updateRect(rect: CoreGraphics.CGRect, inWebView: UIKit.UIView?)
   @objc func updateView(inView: UIKit.UIView)
+  @objc func showLanguageOptionsIfApplicable(withLocaleCodes localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Any>, localeHtmlUrl: Swift.String?, handler: ((Swift.Bool) -> Swift.Void)?)
   @objc func presentLeapButton(for iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, iconEnabled: Swift.Bool)
   @objc func removeAllViews()
 }

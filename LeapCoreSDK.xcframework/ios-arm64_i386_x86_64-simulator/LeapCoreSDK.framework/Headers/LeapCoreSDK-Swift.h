@@ -257,6 +257,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)performWebStageWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction rect:(CGRect)rect webview:(UIView * _Nullable)webview iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo;
 - (void)updateRectWithRect:(CGRect)rect inWebView:(UIView * _Nullable)inWebView;
 - (void)updateViewInView:(UIView * _Nonnull)inView;
+- (void)showLanguageOptionsIfApplicableWithLocaleCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, id> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl handler:(void (^ _Nullable)(BOOL))handler;
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
 @end
@@ -536,6 +537,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)performWebStageWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction rect:(CGRect)rect webview:(UIView * _Nullable)webview iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo;
 - (void)updateRectWithRect:(CGRect)rect inWebView:(UIView * _Nullable)inWebView;
 - (void)updateViewInView:(UIView * _Nonnull)inView;
+- (void)showLanguageOptionsIfApplicableWithLocaleCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, id> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl handler:(void (^ _Nullable)(BOOL))handler;
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
 @end
@@ -815,6 +817,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)performWebStageWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction rect:(CGRect)rect webview:(UIView * _Nullable)webview iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo;
 - (void)updateRectWithRect:(CGRect)rect inWebView:(UIView * _Nullable)inWebView;
 - (void)updateViewInView:(UIView * _Nonnull)inView;
+- (void)showLanguageOptionsIfApplicableWithLocaleCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, id> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl handler:(void (^ _Nullable)(BOOL))handler;
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
 @end
