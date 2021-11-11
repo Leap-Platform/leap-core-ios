@@ -260,6 +260,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)showLanguageOptionsIfApplicableWithLocaleCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, id> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl handler:(void (^ _Nullable)(BOOL))handler;
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
+- (void)appGoesToBackground;
 @end
 
 
@@ -540,6 +541,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)showLanguageOptionsIfApplicableWithLocaleCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, id> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl handler:(void (^ _Nullable)(BOOL))handler;
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
+- (void)appGoesToBackground;
 @end
 
 

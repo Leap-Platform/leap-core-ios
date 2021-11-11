@@ -21,6 +21,7 @@ import zlib
   @objc func showLanguageOptionsIfApplicable(withLocaleCodes localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Any>, localeHtmlUrl: Swift.String?, handler: ((Swift.Bool) -> Swift.Void)?)
   @objc func presentLeapButton(for iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, iconEnabled: Swift.Bool)
   @objc func removeAllViews()
+  @objc func appGoesToBackground()
 }
 @objc public protocol LeapAUICallback : ObjectiveC.NSObjectProtocol {
   @objc func getDefaultMedia() -> Swift.Dictionary<Swift.String, Any>
