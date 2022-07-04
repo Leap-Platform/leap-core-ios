@@ -222,6 +222,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 @protocol LeapAUICallback <NSObject>
 - (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSDictionary<NSString *, id> *> * _Nonnull)getOfflineSyncMedia SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
@@ -230,6 +231,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getLanguageHtmlUrl SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getLanguageCode SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSString *> * _Nonnull)getOfflineSyncLanguageCodesFor:(NSString * _Nonnull)projectId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getTTSCodeForCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
 - (void)didPresentAssist;
 - (void)failedToPerform;
@@ -253,6 +255,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
+- (void)startOfflineSyncMediaFetch;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
@@ -509,6 +512,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 @protocol LeapAUICallback <NSObject>
 - (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSDictionary<NSString *, id> *> * _Nonnull)getOfflineSyncMedia SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
@@ -517,6 +521,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getLanguageHtmlUrl SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getLanguageCode SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSString *> * _Nonnull)getOfflineSyncLanguageCodesFor:(NSString * _Nonnull)projectId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getTTSCodeForCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
 - (void)didPresentAssist;
 - (void)failedToPerform;
@@ -540,6 +545,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
+- (void)startOfflineSyncMediaFetch;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
@@ -796,6 +802,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 @protocol LeapAUICallback <NSObject>
 - (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSDictionary<NSString *, id> *> * _Nonnull)getOfflineSyncMedia SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
@@ -804,6 +811,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getLanguageHtmlUrl SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getLanguageCode SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSString *> * _Nonnull)getOfflineSyncLanguageCodesFor:(NSString * _Nonnull)projectId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getTTSCodeForCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
 - (void)didPresentAssist;
 - (void)failedToPerform;
@@ -827,6 +835,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
+- (void)startOfflineSyncMediaFetch;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;

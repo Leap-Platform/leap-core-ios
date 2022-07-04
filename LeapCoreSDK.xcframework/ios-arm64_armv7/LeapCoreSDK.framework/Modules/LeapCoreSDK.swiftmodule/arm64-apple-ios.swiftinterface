@@ -3,12 +3,14 @@
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name LeapCoreSDK
 import Foundation
 import Swift
+import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import zlib
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
   @objc func startMediaFetch()
+  @objc func startOfflineSyncMediaFetch()
   @objc func hasClientCallBack() -> Swift.Bool
   @objc func sendEvent(event: Swift.Dictionary<Swift.String, Any>)
   @objc func performNativeAssist(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCode: Swift.String)
@@ -26,6 +28,7 @@ import zlib
 }
 @objc public protocol LeapAUICallback : ObjectiveC.NSObjectProtocol {
   @objc func getDefaultMedia() -> Swift.Dictionary<Swift.String, Any>
+  @objc func getOfflineSyncMedia() -> Swift.Array<Swift.Dictionary<Swift.String, Any>>
   @objc func getWebScript(_ identifier: Swift.String) -> Swift.String?
   @objc func isFlowMenu() -> Swift.Bool
   @objc func getFlowMenuInfo() -> Swift.Dictionary<Swift.String, Swift.Bool>?
@@ -34,6 +37,7 @@ import zlib
   @objc func getIconInfoForCurrentInstruction() -> Swift.Dictionary<Swift.String, Any>?
   @objc func getLanguageHtmlUrl() -> Swift.String?
   @objc func getLanguageCode() -> Swift.String
+  @objc func getOfflineSyncLanguageCodes(for projectId: Swift.String) -> [Swift.String]
   @objc func getTTSCodeFor(code: Swift.String) -> Swift.String?
   @objc func didPresentAssist()
   @objc func failedToPerform()
@@ -54,6 +58,7 @@ import zlib
   public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
   public func startProject(projectId: Swift.String, resetProject: Swift.Bool)
   public func embedProject(_ projectId: Swift.String)
+  public func offlineSync(_ projectIds: [Swift.String])
   public func setUniqueUserId(_ uniqueId: Swift.String)
   @objc deinit
 }
