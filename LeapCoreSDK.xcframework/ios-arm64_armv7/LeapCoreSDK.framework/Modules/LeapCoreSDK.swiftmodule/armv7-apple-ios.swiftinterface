@@ -1,14 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LeapCoreSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.6 (swift-5.6-RELEASE)
+// swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LeapCoreSDK
 import Foundation
 import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
-import _StringProcessing
 import zlib
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
   @objc func startMediaFetch()
@@ -16,12 +14,12 @@ import zlib
   @objc func hasClientCallBack() -> Swift.Bool
   @objc func sendEvent(event: Swift.Dictionary<Swift.String, Any>)
   @objc func performNativeAssist(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCode: Swift.String)
-  @objc func performWebAssist(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreFoundation.CGRect, webview: UIKit.UIView?, localeCode: Swift.String)
+  @objc func performWebAssist(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, localeCode: Swift.String)
   @objc func performNativeDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
-  @objc func performWebDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreFoundation.CGRect, webview: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
+  @objc func performWebDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
   @objc func performNativeStage(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc func performWebStage(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreFoundation.CGRect, webview: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc func updateRect(rect: CoreFoundation.CGRect, inWebView: UIKit.UIView?)
+  @objc func performWebStage(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreGraphics.CGRect, webview: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc func updateRect(rect: CoreGraphics.CGRect, inWebView: UIKit.UIView?)
   @objc func updateView(inView: UIKit.UIView)
   @objc func showLanguageOptionsIfApplicable(withLocaleCodes localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Any>, localeHtmlUrl: Swift.String?, handler: ((_ success: Swift.Bool) -> Swift.Void)?)
   @objc func presentLeapButton(for iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, iconEnabled: Swift.Bool)
