@@ -52,6 +52,7 @@ import zlib
   @objc func flush()
   @objc func getProjectParameters() -> [Swift.String : Any]?
   @objc func receiveAUIEvent(action: Swift.Dictionary<Swift.String, Any>)
+  @objc func receiveSurveyEvent(listOfSurveyInfo: Swift.Array<Swift.Dictionary<Swift.String, Any>>)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LeapCore : ObjectiveC.NSObject {
   @objc public static let shared: LeapCoreSDK.LeapCore

@@ -247,6 +247,8 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
+/// receives only list of survey info
+- (void)receiveSurveyEventWithListOfSurveyInfo:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)listOfSurveyInfo;
 @end
 
 @class UIView;
@@ -537,6 +539,8 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
+/// receives only list of survey info
+- (void)receiveSurveyEventWithListOfSurveyInfo:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)listOfSurveyInfo;
 @end
 
 @class UIView;
@@ -827,6 +831,8 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
+/// receives only list of survey info
+- (void)receiveSurveyEventWithListOfSurveyInfo:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)listOfSurveyInfo;
 @end
 
 @class UIView;
