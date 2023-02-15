@@ -63,6 +63,7 @@ import zlib
   public func startWithSelfHostingUrl(_ hostingBaseUrl: Swift.String, uiManager: LeapCoreSDK.LeapAUIHandler?) -> LeapCoreSDK.LeapAUICallback?
   public func setUniqueUserId(_ uniqueId: Swift.String)
   public func setAppLocale(_ localeCode: Swift.String)
+  public func logout()
   @objc deinit
 }
 public struct CompressionLevel : Swift.RawRepresentable {
