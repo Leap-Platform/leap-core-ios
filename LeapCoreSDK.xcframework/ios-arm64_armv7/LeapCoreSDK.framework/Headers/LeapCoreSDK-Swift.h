@@ -258,6 +258,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
 - (void)startOfflineSyncMediaFetch;
+- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, id> * _Nonnull)featureDict;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
@@ -550,6 +551,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
 - (void)startOfflineSyncMediaFetch;
+- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, id> * _Nonnull)featureDict;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
