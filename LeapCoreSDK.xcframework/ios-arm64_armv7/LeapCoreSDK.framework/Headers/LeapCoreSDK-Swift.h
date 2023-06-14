@@ -251,14 +251,14 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)receiveSurveyEventWithListOfSurveyInfo:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)listOfSurveyInfo;
 @end
 
-@class UIView;
 @class NSObject;
+@class UIView;
 
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
 - (void)startOfflineSyncMediaFetch;
-- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, id> * _Nonnull)featureDict;
+- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, NSObject *> * _Nonnull)featureDict;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
@@ -283,6 +283,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
@@ -544,14 +546,14 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)receiveSurveyEventWithListOfSurveyInfo:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)listOfSurveyInfo;
 @end
 
-@class UIView;
 @class NSObject;
+@class UIView;
 
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
 - (void)startMediaFetch;
 - (void)startOfflineSyncMediaFetch;
-- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, id> * _Nonnull)featureDict;
+- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, NSObject *> * _Nonnull)featureDict;
 - (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
 - (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
 - (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
@@ -576,6 +578,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 

@@ -13,7 +13,7 @@ import zlib
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
   @objc func startMediaFetch()
   @objc func startOfflineSyncMediaFetch()
-  @objc func setFeature(featureDict: Swift.Dictionary<Swift.String, Any>)
+  @objc func setFeature(featureDict: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
   @objc func hasClientCallBack() -> Swift.Bool
   @objc func sendEvent(event: Swift.Dictionary<Swift.String, Any>)
   @objc func performNativeAssist(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCode: Swift.String)
