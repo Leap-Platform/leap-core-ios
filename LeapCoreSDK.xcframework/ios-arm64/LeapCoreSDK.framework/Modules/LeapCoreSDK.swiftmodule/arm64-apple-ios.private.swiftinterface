@@ -38,6 +38,7 @@ import zlib
   @objc func isFlowMenu() -> Swift.Bool
   @objc func getFlowMenuInfo() -> Swift.Dictionary<Swift.String, Swift.Bool>?
   @objc func getCurrentLanguageOptionsTexts() -> Swift.Dictionary<Swift.String, Swift.String>
+  @objc func getDisableAssistanceTexts() -> [Swift.String : Swift.String]
   @objc func getLanguagesForCurrentInstruction() -> Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>
   @objc func getIconInfoForCurrentInstruction() -> Swift.Dictionary<Swift.String, Any>?
   @objc func getLanguageHtmlUrl() -> Swift.String?

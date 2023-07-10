@@ -293,6 +293,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, NSString *> * _Nonnull)getCurrentLanguageOptionsTexts SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, NSString *> * _Nonnull)getDisableAssistanceTexts SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)getLanguagesForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getLanguageHtmlUrl SWIFT_WARN_UNUSED_RESULT;

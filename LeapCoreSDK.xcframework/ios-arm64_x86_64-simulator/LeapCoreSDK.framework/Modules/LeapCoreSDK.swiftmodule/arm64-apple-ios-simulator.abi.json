@@ -1735,6 +1735,45 @@
           },
           {
             "kind": "Function",
+            "name": "getDisableAssistanceTexts",
+            "printedName": "getDisableAssistanceTexts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUICallback(im)getDisableAssistanceTexts",
+            "mangledName": "$s11LeapCoreSDK0A11AUICallbackP25getDisableAssistanceTextsSDyS2SGyF",
+            "moduleName": "LeapCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUICallback>",
+            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUICallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getLanguagesForCurrentInstruction",
             "printedName": "getLanguagesForCurrentInstruction()",
             "children": [
@@ -5001,35 +5040,70 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 14205,
+      "offset": 14219,
+      "length": 11,
+      "value": "\"eventName\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14337,
+      "length": 14,
+      "value": "\"flow_success\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14352,
+      "length": 11,
+      "value": "\"flow_stop\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14364,
+      "length": 21,
+      "value": "\"project_termination\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14386,
+      "length": 14,
+      "value": "\"flow_disable\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14482,
       "length": 19,
       "value": "\"leap_flush_events\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
       "kind": "Array",
-      "offset": 14267,
+      "offset": 14544,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 14356,
+      "offset": 14633,
       "length": 19,
       "value": "\"leap_flush_events\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 14416,
+      "offset": 14693,
       "length": 19,
       "value": "\"leap_saved_events\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsDataManager.swift",
       "kind": "StringLiteral",
-      "offset": 14583,
+      "offset": 14860,
       "length": 19,
       "value": "\"leap_flush_events\""
     },
@@ -6708,239 +6782,253 @@
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
-      "kind": "Array",
-      "offset": 40968,
-      "length": 2,
+      "kind": "Dictionary",
+      "offset": 40969,
+      "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
-      "kind": "Array",
-      "offset": 41060,
-      "length": 5,
-      "value": "[[]]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Dictionary",
-      "offset": 41282,
+      "offset": 41138,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Array",
-      "offset": 41924,
+      "offset": 41493,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
+      "kind": "Array",
+      "offset": 41585,
+      "length": 5,
+      "value": "[[]]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
+      "kind": "Dictionary",
+      "offset": 41807,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
+      "kind": "Array",
+      "offset": 42449,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 42200,
+      "offset": 42725,
       "length": 5,
       "value": "\"ang\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 42576,
+      "offset": 43101,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 42586,
+      "offset": 43111,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 42596,
+      "offset": 43121,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 47260,
+      "offset": 47722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 47390,
+      "offset": 47852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 47650,
+      "offset": 48376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 49273,
+      "offset": 49999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 50199,
+      "offset": 50925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 50488,
+      "offset": 51214,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55120,
+      "offset": 55846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Dictionary",
-      "offset": 55261,
+      "offset": 55987,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Dictionary",
-      "offset": 55268,
+      "offset": 55994,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Array",
-      "offset": 55446,
+      "offset": 56172,
       "length": 5,
       "value": "[[]]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55793,
+      "offset": 56519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55814,
+      "offset": 56540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55832,
+      "offset": 56558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55878,
+      "offset": 56604,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Array",
-      "offset": 56455,
+      "offset": 57181,
       "length": 5,
       "value": "[[]]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 58415,
+      "offset": 59141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 58899,
+      "offset": 59625,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 59177,
+      "offset": 59903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 59621,
+      "offset": 60347,
       "length": 12,
       "value": "\"discovery_\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 59912,
+      "offset": 60638,
       "length": 24,
       "value": "\"discovery_\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 59935,
+      "offset": 60661,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 60003,
+      "offset": 60729,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 60346,
+      "offset": 61072,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 60359,
+      "offset": 61085,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 61042,
+      "offset": 61768,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 61055,
+      "offset": 61781,
       "length": 127,
       "value": "\"\""
     },
@@ -9285,98 +9373,98 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6299,
+      "offset": 6335,
       "length": 54,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 6327,
+      "offset": 6363,
       "length": 1,
       "value": "\"\/odin\/api\/v1\/config\/fetch\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "Dictionary",
-      "offset": 6605,
+      "offset": 6641,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "Dictionary",
-      "offset": 7156,
+      "offset": 7192,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8152,
+      "offset": 8188,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8161,
+      "offset": 8197,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8248,
+      "offset": 8284,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8257,
+      "offset": 8293,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8424,
+      "offset": 8460,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8451,
+      "offset": 8487,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8466,
+      "offset": 8502,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8635,
+      "offset": 8671,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8662,
+      "offset": 8698,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapRemoteHandler.swift",
       "kind": "StringLiteral",
-      "offset": 8677,
+      "offset": 8713,
       "length": 1,
       "value": "\"\""
     },
@@ -9999,1981 +10087,2002 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3663,
+      "offset": 3673,
+      "length": 19,
+      "value": "\"disablePanelTitle\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3716,
+      "length": 9,
+      "value": "\"yesText\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3748,
+      "length": 8,
+      "value": "\"noText\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 3780,
       "length": 9,
       "value": "\"ttsInfo\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3696,
+      "offset": 3813,
       "length": 9,
       "value": "\"tagName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3732,
+      "offset": 3849,
       "length": 12,
       "value": "\"attributes\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3770,
+      "offset": 3887,
       "length": 11,
       "value": "\"innerHtml\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3807,
+      "offset": 3924,
       "length": 11,
       "value": "\"innerText\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3840,
+      "offset": 3957,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3867,
+      "offset": 3984,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3894,
+      "offset": 4011,
       "length": 7,
       "value": "\"index\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 4045,
       "length": 12,
       "value": "\"checkPoint\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3963,
+      "offset": 4080,
       "length": 8,
       "value": "\"ACC_ID\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3997,
+      "offset": 4114,
       "length": 11,
       "value": "\"ACC_LABEL\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4028,
+      "offset": 4145,
       "length": 5,
       "value": "\"TAG\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4053,
+      "offset": 4170,
       "length": 5,
       "value": "\"tag\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4084,
+      "offset": 4201,
       "length": 11,
       "value": "\"className\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4117,
+      "offset": 4234,
       "length": 7,
       "value": "\"class\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4145,
+      "offset": 4262,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4179,
+      "offset": 4296,
       "length": 13,
       "value": "\"placeholder\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4212,
+      "offset": 4329,
       "length": 5,
       "value": "\"ang\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4244,
+      "offset": 4361,
       "length": 12,
       "value": "\"text_regex\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4281,
+      "offset": 4398,
       "length": 10,
       "value": "\"idParams\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4317,
+      "offset": 4434,
       "length": 11,
       "value": "\"viewProps\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4355,
+      "offset": 4472,
       "length": 12,
       "value": "\"controller\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4391,
+      "offset": 4508,
       "length": 9,
       "value": "\"nesting\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4554,
       "length": 22,
       "value": "\"isAnchorSameAsTarget\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4492,
+      "offset": 4609,
       "length": 18,
       "value": "\"relationToTarget\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4533,
+      "offset": 4650,
       "length": 8,
       "value": "\"target\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4565,
+      "offset": 4682,
       "length": 9,
       "value": "\"enabled\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4595,
+      "offset": 4712,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4624,
+      "offset": 4741,
       "length": 8,
       "value": "\"region\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4652,
+      "offset": 4769,
       "length": 5,
       "value": "\"tts\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4693,
+      "offset": 4810,
       "length": 21,
       "value": "\"filterByOpaqueViews\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4753,
+      "offset": 4870,
       "length": 24,
       "value": "\"iOSLimitResizeDisabled\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4804,
+      "offset": 4921,
       "length": 12,
       "value": "\"enableLogs\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4861,
+      "offset": 4978,
       "length": 30,
       "value": "\"webviewFailureOverlayDismiss\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4921,
+      "offset": 5038,
       "length": 15,
       "value": "\"isReactNative\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4963,
+      "offset": 5080,
       "length": 12,
       "value": "\"identifier\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 5118,
       "length": 11,
       "value": "\"condition\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5035,
+      "offset": 5152,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5072,
+      "offset": 5189,
       "length": 14,
       "value": "\"action_taken\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5109,
+      "offset": 5226,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5141,
+      "offset": 5258,
       "length": 9,
       "value": "\"htmlUrl\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5178,
+      "offset": 5295,
       "length": 13,
       "value": "\"contentUrls\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5226,
+      "offset": 5343,
       "length": 20,
       "value": "\"highlightClickable\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5273,
+      "offset": 5390,
       "length": 12,
       "value": "\"autoScroll\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5307,
+      "offset": 5424,
       "length": 7,
       "value": "\"focus\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5340,
+      "offset": 5457,
       "length": 11,
       "value": "\"autoFocus\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5377,
+      "offset": 5494,
       "length": 11,
       "value": "\"flowTitle\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5412,
+      "offset": 5529,
       "length": 9,
       "value": "\"content\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5443,
+      "offset": 5560,
       "length": 7,
       "value": "\"click\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5476,
+      "offset": 5593,
       "length": 11,
       "value": "\"clickType\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5509,
+      "offset": 5626,
       "length": 7,
       "value": "\"optIn\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5537,
+      "offset": 5654,
       "length": 6,
       "value": "\"R_ID\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5565,
+      "offset": 5682,
       "length": 7,
       "value": "\"AR_ID\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 5716,
       "length": 12,
       "value": "\"checkError\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5635,
+      "offset": 5752,
       "length": 9,
       "value": "\"bgColor\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 5788,
       "length": 12,
       "value": "\"extraProps\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5715,
+      "offset": 5832,
       "length": 17,
       "value": "\"highlightAnchor\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5762,
+      "offset": 5879,
       "length": 15,
       "value": "\"isLeftAligned\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5809,
+      "offset": 5926,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5861,
+      "offset": 5978,
       "length": 20,
       "value": "\"beaconRippleRadius\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5907,
+      "offset": 6024,
       "length": 11,
       "value": "\"leftAlign\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5946,
+      "offset": 6063,
       "length": 13,
       "value": "\"dragEnabled\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 5987,
+      "offset": 6104,
       "length": 13,
       "value": "\"dismissible\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6029,
+      "offset": 6146,
       "length": 14,
       "value": "\"isTTSEnabled\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6067,
+      "offset": 6184,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6099,
+      "offset": 6216,
       "length": 8,
       "value": "\"params\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 6246,
       "length": 7,
       "value": "\"style\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6166,
+      "offset": 6283,
       "length": 15,
       "value": "\"dismissAction\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6212,
+      "offset": 6329,
       "length": 16,
       "value": "\"outsideDismiss\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6265,
+      "offset": 6382,
       "length": 22,
       "value": "\"dismissOnAnchorClick\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6318,
+      "offset": 6435,
       "length": 16,
       "value": "\"enterAnimation\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6364,
+      "offset": 6481,
       "length": 15,
       "value": "\"exitAnimation\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6412,
+      "offset": 6529,
       "length": 18,
       "value": "\"autoDismissDelay\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6462,
+      "offset": 6579,
       "length": 17,
       "value": "\"postSubmitDelay\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6505,
+      "offset": 6622,
       "length": 11,
       "value": "\"alignment\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6545,
+      "offset": 6662,
       "length": 14,
       "value": "\"pageMetaData\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6580,
+      "offset": 6697,
       "length": 6,
       "value": "\"rect\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6725,
       "length": 7,
       "value": "\"width\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6638,
+      "offset": 6755,
       "length": 8,
       "value": "\"height\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6685,
+      "offset": 6802,
       "length": 24,
       "value": "\"highlightConnectorType\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6750,
+      "offset": 6867,
       "length": 26,
       "value": "\"highlightConnectorLength\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6816,
+      "offset": 6933,
       "length": 25,
       "value": "\"highlightConnectorColor\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6874,
+      "offset": 6991,
       "length": 18,
       "value": "\"animateHighlight\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6922,
+      "offset": 7039,
       "length": 15,
       "value": "\"highlightType\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6975,
+      "offset": 7092,
       "length": 23,
       "value": "\"highlightCornerRadius\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7027,
+      "offset": 7144,
       "length": 14,
       "value": "\"carouselType\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7063,
+      "offset": 7180,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7098,
+      "offset": 7215,
       "length": 13,
       "value": "\"anchorClick\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7140,
+      "offset": 7257,
       "length": 14,
       "value": "\"externalLink\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7180,
+      "offset": 7297,
       "length": 11,
       "value": "\"elevation\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7220,
+      "offset": 7337,
       "length": 14,
       "value": "\"cornerRadius\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7259,
+      "offset": 7376,
       "length": 10,
       "value": "\"maxWidth\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7295,
+      "offset": 7412,
       "length": 11,
       "value": "\"maxHeight\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7334,
+      "offset": 7451,
       "length": 13,
       "value": "\"strokeColor\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7375,
+      "offset": 7492,
       "length": 13,
       "value": "\"strokeWidth\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7423,
+      "offset": 7540,
       "length": 22,
       "value": "\"isContentTransparent\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7471,
+      "offset": 7588,
       "length": 11,
       "value": "\"soundName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7506,
+      "offset": 7623,
       "length": 9,
       "value": "\"baseUrl\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7542,
+      "offset": 7659,
       "length": 12,
       "value": "\"jinySounds\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7577,
+      "offset": 7694,
       "length": 8,
       "value": "\"sounds\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7607,
+      "offset": 7724,
       "length": 7,
       "value": "\"isWeb\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7635,
+      "offset": 7752,
       "length": 6,
       "value": "\"body\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7665,
+      "offset": 7782,
       "length": 9,
       "value": "\"command\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7698,
+      "offset": 7815,
       "length": 9,
       "value": "\"COMMAND\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7743,
+      "offset": 7860,
       "length": 21,
       "value": "\"getPersonalizedTags\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7806,
+      "offset": 7923,
       "length": 27,
       "value": "\"getSurveyPersonalizedTags\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7858,
+      "offset": 7975,
       "length": 10,
       "value": "\"deepLink\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7889,
+      "offset": 8006,
       "length": 6,
       "value": "\"LINK\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7929,
+      "offset": 8046,
       "length": 19,
       "value": "\"DYNAMIC_FLOW_MENU\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7987,
+      "offset": 8104,
       "length": 24,
       "value": "\"DYNAMIC_FLOW_CHECKLIST\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8044,
+      "offset": 8161,
       "length": 18,
       "value": "\"STATIC_FLOW_MENU\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8100,
+      "offset": 8217,
       "length": 23,
       "value": "\"STATIC_FLOW_CHECKLIST\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8151,
+      "offset": 8268,
       "length": 13,
       "value": "\"buttonLabel\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8193,
+      "offset": 8310,
       "length": 14,
       "value": "\"isCustomised\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8244,
+      "offset": 8361,
       "length": 22,
       "value": "\"showAUIOnAnchorClick\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8294,
+      "offset": 8411,
       "length": 13,
       "value": "\"webViewList\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8336,
+      "offset": 8453,
       "length": 14,
       "value": "\"activityName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8380,
+      "offset": 8497,
       "length": 15,
       "value": "\"jinyLanguages\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8430,
+      "offset": 8547,
       "length": 20,
       "value": "\"onLanguageSelected\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8474,
+      "offset": 8591,
       "length": 9,
       "value": "\"feature\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8513,
+      "offset": 8630,
       "length": 15,
       "value": "\"activeElement\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8553,
+      "offset": 8670,
       "length": 10,
       "value": "\"cssProps\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8586,
+      "offset": 8703,
       "length": 8,
       "value": "\"weight\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8623,
+      "offset": 8740,
       "length": 14,
       "value": "\"taggedEvents\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8674,
+      "offset": 8791,
       "length": 22,
       "value": "\"terminationFrequency\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8722,
+      "offset": 8839,
       "length": 11,
       "value": "\"localeMap\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8752,
+      "offset": 8869,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8775,
+      "offset": 8892,
       "length": 4,
       "value": "\"hi\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8812,
+      "offset": 8929,
       "length": 18,
       "value": "\"jinyPrimaryColor\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8866,
+      "offset": 8983,
       "length": 21,
       "value": "\"pointerColorPrimary\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8925,
+      "offset": 9042,
       "length": 23,
       "value": "\"pointerColorSecondary\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 8981,
+      "offset": 9098,
       "length": 18,
       "value": "\"defaultAppLocale\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9034,
+      "offset": 9151,
       "length": 20,
       "value": "\"defaultAudioLocale\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9082,
+      "offset": 9199,
       "length": 13,
       "value": "\"offlineSync\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9124,
+      "offset": 9241,
       "length": 14,
       "value": "\"configStatus\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9185,
+      "offset": 9302,
       "length": 11,
       "value": "\"wf_survey\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9224,
+      "offset": 9341,
       "length": 13,
       "value": "\"SURVEY_DATA\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9276,
+      "offset": 9393,
       "length": 24,
       "value": "\"wfe_survey_question_id\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9336,
+      "offset": 9453,
       "length": 21,
       "value": "\"wfe_survey_question\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9391,
+      "offset": 9508,
       "length": 19,
       "value": "\"wfe_survey_answer\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9452,
+      "offset": 9569,
       "length": 10,
       "value": "\"segments\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9484,
+      "offset": 9601,
       "length": 7,
       "value": "\"Hours\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9515,
+      "offset": 9632,
       "length": 9,
       "value": "\"Minutes\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9572,
+      "offset": 9689,
       "length": 3,
       "value": "\"R\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9593,
+      "offset": 9710,
       "length": 3,
       "value": "\"r\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9614,
+      "offset": 9731,
       "length": 3,
       "value": "\"G\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9635,
+      "offset": 9752,
       "length": 3,
       "value": "\"g\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9656,
+      "offset": 9773,
       "length": 3,
       "value": "\"B\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9677,
+      "offset": 9794,
       "length": 3,
       "value": "\"b\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9698,
+      "offset": 9815,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9719,
+      "offset": 9836,
       "length": 3,
       "value": "\"a\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9744,
+      "offset": 9861,
       "length": 7,
       "value": "\"image\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9777,
+      "offset": 9894,
       "length": 11,
       "value": "\"hierarchy\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9810,
+      "offset": 9927,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9849,
+      "offset": 9966,
       "length": 17,
       "value": "\"screenCaptureId\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9890,
+      "offset": 10007,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9922,
+      "offset": 10039,
       "length": 8,
       "value": "\"roomId\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9953,
+      "offset": 10070,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 9990,
+      "offset": 10107,
       "length": 14,
       "value": "\"screen_width\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10034,
+      "offset": 10151,
       "length": 15,
       "value": "\"screen_height\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10077,
+      "offset": 10194,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10117,
+      "offset": 10234,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10156,
+      "offset": 10273,
       "length": 12,
       "value": "\"deviceType\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10202,
+      "offset": 10319,
       "length": 19,
       "value": "\"zIndexMultiBounds\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10257,
+      "offset": 10374,
       "length": 21,
       "value": "\"client_package_name\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10301,
+      "offset": 10418,
       "length": 8,
       "value": "\"layout\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10334,
+      "offset": 10451,
       "length": 10,
       "value": "\"viewport\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10385,
+      "offset": 10502,
       "length": 26,
       "value": "\"isHierarchyBase64Encoded\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10436,
+      "offset": 10553,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10477,
+      "offset": 10594,
       "length": 16,
       "value": "\"languageButton\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10514,
+      "offset": 10631,
       "length": 6,
       "value": "\"stop\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10554,
+      "offset": 10671,
       "length": 19,
       "value": "\"projectParameters\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10606,
+      "offset": 10723,
       "length": 100,
       "value": "\"https:\/\/docs.leap.is\/getting-started-with-leap\/in-app-experience\/how-to-preview-projects-on-device\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10742,
+      "offset": 10859,
       "length": 90,
       "value": "\"https:\/\/docs.leap.is\/getting-started-with-leap\/leap-sample-app\/how-to-connect-sample-app\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10860,
+      "offset": 10977,
       "length": 96,
       "value": "\"https:\/\/docs.leap.is\/getting-started-with-leap\/in-app-experience\/how-to-generate-qr-secret-otp\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 10985,
+      "offset": 11102,
       "length": 142,
       "value": "\"It looks like your privacy settings are preventing us from accessing your camera to do QR code scanning. You can fix this by tapping on 'GO'\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11166,
+      "offset": 11283,
       "length": 123,
       "value": "\"It looks like your privacy settings are preventing us from sending you notifications. You can fix this by tapping on 'GO'\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11334,
+      "offset": 11451,
       "length": 26,
       "value": "\"Incorrect app or version\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11410,
+      "offset": 11527,
       "length": 59,
       "value": "\"Invalid QR code! \n\nConnect to Sample App before preview\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11519,
+      "offset": 11636,
       "length": 61,
       "value": "\"Invalid QR code! \n\nConnect to Sample App before streaming\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11617,
+      "offset": 11734,
       "length": 60,
       "value": "\"Authentication failed! Try regenerating QR and scan again.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11707,
+      "offset": 11824,
       "length": 43,
       "value": "\"QR expired. Regenerate QR and scan again.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11791,
+      "offset": 11908,
       "length": 63,
       "value": "\"Authentication failed! Try regenerating Code and enter again.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11894,
+      "offset": 12011,
       "length": 69,
       "value": "\"Incorrect code. Please check the code in dashboard and enter again.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 11997,
+      "offset": 12114,
       "length": 66,
       "value": "\"API Key not matching for LeapCreator and Leap SDK, please check!\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12094,
+      "offset": 12211,
       "length": 42,
       "value": "\"API Key not found. Please add an API Key\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 12286,
       "length": 77,
       "value": "\"Incorrect API Key. Please check the API Key from App Settings in Dashboard.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12281,
+      "offset": 12398,
       "length": 56,
       "value": "\"Something went wrong. Try reaching out to support team\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12375,
+      "offset": 12492,
       "length": 46,
       "value": "\"Something went wrong, try restarting the app\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12452,
+      "offset": 12569,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12507,
+      "offset": 12624,
       "length": 37,
       "value": "\"Connection failed. Please try again\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12576,
+      "offset": 12693,
       "length": 112,
       "value": "\"App Mismatch.\nThe app doesn’t match in dashboard and \""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12651,
+      "offset": 12768,
       "length": 1,
       "value": "\". Please check the app in dashboard.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12724,
+      "offset": 12841,
       "length": 57,
       "value": "\"Please check if the content is created for the project.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12821,
+      "offset": 12938,
       "length": 85,
       "value": "\"Incorrect App Version. Please check the app version from your app’s notification.\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 12944,
+      "offset": 13061,
       "length": 74,
       "value": "\"Please check app's platform in dashboard. Expected app's platform is iOS\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13054,
+      "offset": 13171,
       "length": 21,
       "value": "\"totalTimeSpentOnApp\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13106,
+      "offset": 13223,
       "length": 16,
       "value": "\"GenericAppScan\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13152,
+      "offset": 13269,
       "length": 15,
       "value": "\"SampleAppScan\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13201,
+      "offset": 13318,
       "length": 19,
       "value": "\"sampleAppInfoDict\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13252,
+      "offset": 13369,
       "length": 17,
       "value": "\"sampleAppRescan\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13293,
+      "offset": 13410,
       "length": 9,
       "value": "\"Preview\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13326,
+      "offset": 13443,
       "length": 9,
       "value": "\"Pairing\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13356,
+      "offset": 13473,
       "length": 6,
       "value": "\"Scan\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13389,
+      "offset": 13506,
       "length": 13,
       "value": "\"End Preview\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13429,
+      "offset": 13546,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13469,
+      "offset": 13586,
       "length": 13,
       "value": "\"projectName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13517,
+      "offset": 13634,
       "length": 20,
       "value": "\"currentProjectName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13574,
+      "offset": 13691,
       "length": 21,
       "value": "\"is.leap.LeapPreview\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13619,
+      "offset": 13736,
       "length": 9,
       "value": "\"PREVIEW\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13655,
+      "offset": 13772,
       "length": 12,
       "value": "\"SAMPLE_APP\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13691,
+      "offset": 13808,
       "length": 9,
       "value": "\"PAIRING\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13728,
+      "offset": 13845,
       "length": 13,
       "value": "\"deepLinkURL\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13764,
+      "offset": 13881,
       "length": 8,
       "value": "\"TABLET\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13794,
+      "offset": 13911,
       "length": 7,
       "value": "\"PHONE\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13824,
+      "offset": 13941,
       "length": 8,
       "value": "\"iPhone\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13853,
+      "offset": 13970,
       "length": 6,
       "value": "\"iPad\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13879,
+      "offset": 13996,
       "length": 5,
       "value": "\"Mac\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13909,
+      "offset": 14026,
       "length": 10,
       "value": "\"Car Play\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13938,
+      "offset": 14055,
       "length": 10,
       "value": "\"Apple Tv\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 13971,
+      "offset": 14088,
       "length": 8,
       "value": "\"device\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14005,
+      "offset": 14122,
       "length": 11,
       "value": "\"Landscape\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14041,
+      "offset": 14158,
       "length": 10,
       "value": "\"Portrait\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14082,
+      "offset": 14199,
       "length": 16,
       "value": "\"appVersionName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14129,
+      "offset": 14246,
       "length": 16,
       "value": "\"appVersionCode\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14169,
+      "offset": 14286,
       "length": 9,
       "value": "\"appName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14205,
+      "offset": 14322,
       "length": 12,
       "value": "\"windowName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14251,
+      "offset": 14368,
       "length": 19,
       "value": "\"clientPackageName\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14295,
+      "offset": 14412,
       "length": 10,
       "value": "\"metadata\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14333,
+      "offset": 14450,
       "length": 13,
       "value": "\"screenWidth\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14375,
+      "offset": 14492,
       "length": 14,
       "value": "\"screenHeight\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14414,
+      "offset": 14531,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14446,
+      "offset": 14563,
       "length": 7,
       "value": "\"owner\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14491,
+      "offset": 14608,
       "length": 12,
       "value": "\"properties\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14539,
+      "offset": 14656,
       "length": 21,
       "value": "\"unfilteredHierarchy\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14594,
+      "offset": 14711,
       "length": 19,
       "value": "\"filteredHierarchy\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14638,
+      "offset": 14755,
       "length": 9,
       "value": "\"LeapSDK\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14678,
+      "offset": 14795,
       "length": 16,
       "value": "\"LeapCreatorSDK\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14728,
+      "offset": 14845,
       "length": 19,
       "value": "\"HasLeapSDKStarted\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14778,
+      "offset": 14895,
       "length": 16,
       "value": "\"LeapSDKStarted\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14828,
+      "offset": 14945,
       "length": 19,
       "value": "\"internetConnected\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14884,
+      "offset": 15001,
       "length": 22,
       "value": "\"internetNotConnected\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14940,
+      "offset": 15057,
       "length": 19,
       "value": "\"onSocketConnected\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 14995,
+      "offset": 15112,
       "length": 21,
       "value": "\"leap_preview_config\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15050,
+      "offset": 15167,
       "length": 19,
       "value": "\"onRoomIdValidated\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15103,
+      "offset": 15220,
       "length": 19,
       "value": "\"leap_creator_live\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15160,
+      "offset": 15277,
       "length": 23,
       "value": "\"leap_assist_presented\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15216,
+      "offset": 15333,
       "length": 18,
       "value": "\"leap_end_preview\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15269,
+      "offset": 15386,
       "length": 20,
       "value": "\"Creator_Disconnect\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15312,
+      "offset": 15429,
       "length": 8,
       "value": "\"rescan\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15355,
+      "offset": 15472,
       "length": 20,
       "value": "\"Reset_Notification\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15414,
+      "offset": 15531,
       "length": 12,
       "value": "\"wfxProfile\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15453,
+      "offset": 15570,
       "length": 12,
       "value": "\"properties\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15491,
+      "offset": 15608,
       "length": 11,
       "value": "\"updatedAt\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15531,
+      "offset": 15648,
       "length": 14,
       "value": "\"leap_profile\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15584,
+      "offset": 15701,
       "length": 11,
       "value": "\"Leap Icon\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15621,
+      "offset": 15738,
       "length": 12,
       "value": "\"Leap Popup\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15665,
+      "offset": 15782,
       "length": 18,
       "value": "\"Leap Bottomsheet\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15708,
+      "offset": 15825,
       "length": 11,
       "value": "\"Leap Ping\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15746,
+      "offset": 15863,
       "length": 13,
       "value": "\"Leap Drawer\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15787,
+      "offset": 15904,
       "length": 14,
       "value": "\"Leap Tooltip\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15831,
+      "offset": 15948,
       "length": 16,
       "value": "\"Leap Highlight\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15878,
+      "offset": 15995,
       "length": 17,
       "value": "\"Leap Fullscreen\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15923,
+      "offset": 16040,
       "length": 14,
       "value": "\"Leap Gesture\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 15964,
+      "offset": 16081,
       "length": 13,
       "value": "\"Leap Beacon\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16003,
+      "offset": 16120,
       "length": 12,
       "value": "\"Leap Label\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16040,
+      "offset": 16157,
       "length": 11,
       "value": "\"Leap Spot\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16080,
+      "offset": 16197,
       "length": 15,
       "value": "\"Leap Carousel\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16123,
+      "offset": 16240,
       "length": 14,
       "value": "\"Leap SlideIn\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16170,
+      "offset": 16287,
       "length": 19,
       "value": "\"Leap Notification\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16217,
+      "offset": 16334,
       "length": 14,
       "value": "\"Leap Delight\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16267,
+      "offset": 16384,
       "length": 22,
       "value": "\"Leap LanguageOptions\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16330,
+      "offset": 16447,
       "length": 5,
       "value": "\"cer\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16391,
+      "offset": 16508,
       "length": 28,
       "value": "\"^https:\/\/.*\\.leap\\.is.*$\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16472,
+      "offset": 16589,
       "length": 11,
       "value": "\"#5532FFFF\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16531,
+      "offset": 16648,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16562,
+      "offset": 16679,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16592,
+      "offset": 16709,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16624,
+      "offset": 16741,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16659,
+      "offset": 16776,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16728,
+      "offset": 16845,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16788,
+      "offset": 16905,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 16834,
+      "offset": 16951,
       "length": 14,
       "value": "\"CFBundleName\""
     },
@@ -12155,77 +12264,77 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 3523,
+      "offset": 3579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 3799,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "StringLiteral",
-      "offset": 3747,
+      "offset": 3803,
       "length": 17,
       "value": "\"Incorrect token\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 3879,
+      "offset": 3935,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4377,
+      "offset": 4433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4518,
+      "offset": 4574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4738,
+      "offset": 4794,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4760,
+      "offset": 4816,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4870,
+      "offset": 4926,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4892,
+      "offset": 4948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 5696,
+      "offset": 5752,
       "length": 4,
       "value": "true"
     },
@@ -14087,378 +14196,378 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7441,
+      "offset": 7479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7556,
+      "offset": 7594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7681,
+      "offset": 7719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7801,
+      "offset": 7839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7923,
+      "offset": 7961,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8039,
+      "offset": 8077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8145,
+      "offset": 8183,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8263,
+      "offset": 8301,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8388,
+      "offset": 8426,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8493,
+      "offset": 8531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 9429,
+      "offset": 9570,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 9496,
+      "offset": 9637,
       "length": 5,
       "value": "\"GMT\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 9534,
+      "offset": 9675,
       "length": 27,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 9685,
+      "offset": 9826,
       "length": 3,
       "value": "\"Z\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 10368,
+      "offset": 10509,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 10434,
+      "offset": 10575,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Dictionary",
-      "offset": 11504,
+      "offset": 11645,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 11740,
+      "offset": 11881,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 12341,
+      "offset": 12482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 12415,
+      "offset": 12556,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 13502,
+      "offset": 13643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 13507,
+      "offset": 13648,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 15571,
+      "offset": 15712,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Dictionary",
-      "offset": 15842,
+      "offset": 15983,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 16080,
+      "offset": 16221,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Dictionary",
-      "offset": 16345,
+      "offset": 16486,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 16580,
+      "offset": 16721,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 17674,
+      "offset": 17815,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 17860,
+      "offset": 18001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 20642,
+      "offset": 20783,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 20872,
+      "offset": 21013,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 21402,
+      "offset": 21543,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 21411,
+      "offset": 21552,
       "length": 8,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 21417,
+      "offset": 21558,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 21537,
+      "offset": 21678,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 21546,
+      "offset": 21687,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Dictionary",
-      "offset": 22047,
+      "offset": 22188,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Dictionary",
-      "offset": 22382,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
-      "kind": "Array",
-      "offset": 22428,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
-      "kind": "Dictionary",
-      "offset": 22476,
+      "offset": 22523,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 22524,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
-      "kind": "Dictionary",
       "offset": 22569,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
-      "kind": "Array",
-      "offset": 22609,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
-      "kind": "Array",
-      "offset": 22653,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Dictionary",
-      "offset": 22690,
+      "offset": 22617,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 22738,
+      "offset": 22665,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
+      "kind": "Dictionary",
+      "offset": 22710,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
+      "kind": "Array",
+      "offset": 22750,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 22782,
+      "offset": 22794,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
+      "kind": "Dictionary",
+      "offset": 22831,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
+      "kind": "Array",
+      "offset": 22879,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "Array",
-      "offset": 23125,
+      "offset": 22923,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
+      "kind": "Array",
+      "offset": 23266,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 23586,
+      "offset": 23727,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "BooleanLiteral",
-      "offset": 24424,
+      "offset": 24565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 24651,
+      "offset": 24792,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "IntegerLiteral",
-      "offset": 25571,
+      "offset": 25712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 25952,
+      "offset": 26093,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapSharedInformation.swift",
       "kind": "StringLiteral",
-      "offset": 25967,
+      "offset": 26108,
       "length": 2,
       "value": "\"\""
     },
@@ -16404,44 +16513,65 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
       "kind": "StringLiteral",
-      "offset": 482,
-      "length": 2,
-      "value": "\"\""
+      "offset": 560,
+      "length": 5,
+      "value": "\"ang\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
       "kind": "StringLiteral",
-      "offset": 540,
-      "length": 2,
-      "value": "\"\""
+      "offset": 621,
+      "length": 9,
+      "value": "\"ENGLISH\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
       "kind": "StringLiteral",
-      "offset": 602,
-      "length": 2,
-      "value": "\"\""
+      "offset": 690,
+      "length": 9,
+      "value": "\"ENGLISH\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
       "kind": "StringLiteral",
-      "offset": 662,
-      "length": 2,
-      "value": "\"\""
+      "offset": 757,
+      "length": 6,
+      "value": "\"Stop\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
       "kind": "StringLiteral",
-      "offset": 726,
-      "length": 2,
-      "value": "\"\""
+      "offset": 825,
+      "length": 8,
+      "value": "\"Repeat\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
       "kind": "StringLiteral",
-      "offset": 806,
-      "length": 2,
-      "value": "\"\""
+      "offset": 911,
+      "length": 11,
+      "value": "\"Languages\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 52,
+      "value": "\"Do you want to permanently disable the assistance?\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
+      "kind": "StringLiteral",
+      "offset": 1106,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapLanguage.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 4,
+      "value": "\"No\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapConfigManager.swift",
@@ -17167,28 +17297,28 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 1067,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapViewProperties.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 1079,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapViewProperties.swift",
       "kind": "BooleanLiteral",
-      "offset": 1446,
+      "offset": 1511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapViewProperties.swift",
       "kind": "BooleanLiteral",
-      "offset": 1507,
+      "offset": 1572,
       "length": 5,
       "value": "false"
     },
