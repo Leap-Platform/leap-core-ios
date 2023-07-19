@@ -6860,182 +6860,182 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 47722,
+      "offset": 47785,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 47852,
+      "offset": 47915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 48376,
+      "offset": 48439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 49999,
+      "offset": 50062,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 50925,
+      "offset": 50988,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 51214,
+      "offset": 51277,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 55846,
+      "offset": 55909,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Dictionary",
-      "offset": 55987,
+      "offset": 56050,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Dictionary",
-      "offset": 55994,
+      "offset": 56057,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Array",
-      "offset": 56172,
+      "offset": 56235,
       "length": 5,
       "value": "[[]]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 56519,
+      "offset": 56582,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 56540,
+      "offset": 56603,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 56558,
+      "offset": 56621,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 56604,
+      "offset": 56667,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Array",
-      "offset": 57181,
+      "offset": 57244,
       "length": 5,
       "value": "[[]]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 59141,
+      "offset": 59204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 59625,
+      "offset": 59688,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 59903,
+      "offset": 59966,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 60347,
+      "offset": 60410,
       "length": 12,
       "value": "\"discovery_\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 60638,
+      "offset": 60701,
       "length": 24,
       "value": "\"discovery_\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 60661,
+      "offset": 60724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 60729,
+      "offset": 60792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 61072,
+      "offset": 61135,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 61085,
+      "offset": 61148,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 61768,
+      "offset": 61831,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "StringLiteral",
-      "offset": 61781,
+      "offset": 61844,
       "length": 127,
       "value": "\"\""
     },
@@ -12322,7 +12322,7 @@
       "kind": "StringLiteral",
       "offset": 201,
       "length": 7,
-      "value": "\"1.9.4\""
+      "value": "\"1.9.5\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
