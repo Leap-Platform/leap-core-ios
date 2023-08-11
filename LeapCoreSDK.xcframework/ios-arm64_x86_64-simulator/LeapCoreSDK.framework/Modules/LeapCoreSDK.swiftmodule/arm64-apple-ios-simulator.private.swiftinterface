@@ -47,6 +47,7 @@ import zlib
   @objc func getTTSCodeFor(code: Swift.String) -> Swift.String?
   @objc func didPresentAssist()
   @objc func failedToPerform()
+  @objc func failedToPerformTooltipAssist(with reason: Swift.String)
   @objc func didDismissView(byUser: Swift.Bool, autoDismissed: Swift.Bool, panelOpen: Swift.Bool, action: Swift.Dictionary<Swift.String, Any>?)
   @objc func leapTapped()
   @objc func optionPanelOpened()

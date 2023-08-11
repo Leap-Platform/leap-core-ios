@@ -302,6 +302,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSString * _Nullable)getTTSCodeForCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
 - (void)didPresentAssist;
 - (void)failedToPerform;
+- (void)failedToPerformTooltipAssistWith:(NSString * _Nonnull)reason;
 - (void)didDismissViewByUser:(BOOL)byUser autoDismissed:(BOOL)autoDismissed panelOpen:(BOOL)panelOpen action:(NSDictionary<NSString *, id> * _Nullable)action;
 - (void)leapTapped;
 - (void)optionPanelOpened;
@@ -350,7 +351,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
 
 
 
