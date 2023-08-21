@@ -12268,7 +12268,7 @@
       "kind": "StringLiteral",
       "offset": 201,
       "length": 8,
-      "value": "\"1.10.0\""
+      "value": "\"1.10.1\""
     },
     {
       "filePath": "\/Users\/achyuth\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapCore.swift",
