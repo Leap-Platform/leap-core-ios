@@ -57,21 +57,21 @@ import zlib
   @objc func disableAssistance()
   @objc func disableLeapSDK()
   @objc func didLanguageChange(from previousLanguage: Swift.String, to currentLanguage: Swift.String)
-  @objc func flush()
+  @objc func flush(completion: @escaping () -> Swift.Void)
   @objc func getProjectParameters() -> [Swift.String : Any]?
   @objc func receiveAUIEvent(action: Swift.Dictionary<Swift.String, Any>)
   @objc func receiveSurveyEvent(listOfSurveyInfo: Swift.Array<Swift.Dictionary<Swift.String, Any>>)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LeapCore : ObjectiveC.NSObject {
   @objc public static let shared: LeapCoreSDK.LeapCore
-  public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: (any LeapCoreSDK.LeapAUIHandler)?) -> (any LeapCoreSDK.LeapAUICallback)?
-  public func startProject(projectId: Swift.String, resetProject: Swift.Bool)
-  public func embedProject(_ projectId: Swift.String)
-  public func offlineSync(_ projectIds: [Swift.String])
-  public func startWithSelfHostingUrl(_ hostingBaseUrl: Swift.String, uiManager: (any LeapCoreSDK.LeapAUIHandler)?) -> (any LeapCoreSDK.LeapAUICallback)?
-  public func setUniqueUserId(_ uniqueId: Swift.String)
+  public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: (any LeapCoreSDK.LeapAUIHandler)?, initializeComplete: @escaping () -> Swift.Void) -> (any LeapCoreSDK.LeapAUICallback)?
+  public func startProject(projectId: Swift.String, resetProject: Swift.Bool, completion: @escaping () -> Swift.Void)
+  public func embedProject(_ projectId: Swift.String, completion: @escaping () -> Swift.Void)
+  public func offlineSync(_ projectIds: [Swift.String], completion: @escaping () -> Swift.Void)
+  public func startWithSelfHostingUrl(_ hostingBaseUrl: Swift.String, uiManager: (any LeapCoreSDK.LeapAUIHandler)?, selfHostingInitializationCompletion: @escaping () -> Swift.Void) -> (any LeapCoreSDK.LeapAUICallback)?
+  public func setUniqueUserId(_ uniqueId: Swift.String, completion: @escaping () -> Swift.Void)
   public func setAppLocale(_ localeCode: Swift.String)
-  public func logout()
+  public func logout(logoutComplete: @escaping () -> Swift.Void)
   @objc deinit
 }
 public struct CompressionLevel : Swift.RawRepresentable {

@@ -312,7 +312,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)disableAssistance;
 - (void)disableLeapSDK;
 - (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
-- (void)flush;
+- (void)flushWithCompletion:(void (^ _Nonnull)(void))completion;
 - (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
@@ -735,7 +735,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)disableAssistance;
 - (void)disableLeapSDK;
 - (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
-- (void)flush;
+- (void)flushWithCompletion:(void (^ _Nonnull)(void))completion;
 - (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
