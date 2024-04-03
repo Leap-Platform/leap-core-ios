@@ -301,6 +301,11 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (NSString * _Nonnull)getLanguageCode SWIFT_WARN_UNUSED_RESULT;
 - (NSArray<NSString *> * _Nonnull)getOfflineSyncLanguageCodesFor:(NSString * _Nonnull)projectId SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)getTTSCodeForCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
+- (void)didHtmlLoadForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type additionalInfoDict:(NSDictionary<NSString *, id> * _Nonnull)additionalInfoDict;
+- (void)didStartAnimationForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type;
+- (void)didCompleteAnimationForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type;
+- (void)didRenderCompleteForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type additionalInfoDict:(NSDictionary<NSString *, id> * _Nonnull)additionalInfoDict;
+- (void)didCarouselRenderCompleteForUrl:(NSString * _Nonnull)url carouselDict:(NSDictionary<NSString *, id> * _Nonnull)carouselDict;
 - (void)didPresentAssist;
 - (void)failedToPerform;
 - (void)failedToPerformTooltipAssistWith:(NSString * _Nonnull)reason;
@@ -313,7 +318,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)disableLeapSDK;
 - (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
 - (void)flushWithCompletion:(void (^ _Nonnull)(void))completion;
-- (NSDictionary<NSString *, id> * _Nullable)getProjectParameters SWIFT_WARN_UNUSED_RESULT;
+- (NSDictionary<NSString *, id> * _Nullable)getProjectParametersDictionary SWIFT_WARN_UNUSED_RESULT;
 /// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
 /// receives only list of survey info
@@ -352,6 +357,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

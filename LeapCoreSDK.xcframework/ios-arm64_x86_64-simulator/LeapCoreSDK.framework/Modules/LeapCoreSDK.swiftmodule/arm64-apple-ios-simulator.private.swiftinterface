@@ -46,6 +46,11 @@ import zlib
   @objc func getLanguageCode() -> Swift.String
   @objc func getOfflineSyncLanguageCodes(for projectId: Swift.String) -> [Swift.String]
   @objc func getTTSCodeFor(code: Swift.String) -> Swift.String?
+  @objc func didHtmlLoad(forUrl url: Swift.String, type: Swift.String, additionalInfoDict: [Swift.String : Any])
+  @objc func didStartAnimation(forUrl url: Swift.String, type: Swift.String)
+  @objc func didCompleteAnimation(forUrl url: Swift.String, type: Swift.String)
+  @objc func didRenderComplete(forUrl url: Swift.String, type: Swift.String, additionalInfoDict: [Swift.String : Any])
+  @objc func didCarouselRenderComplete(forUrl url: Swift.String, carouselDict: [Swift.String : Any])
   @objc func didPresentAssist()
   @objc func failedToPerform()
   @objc func failedToPerformTooltipAssist(with reason: Swift.String)
@@ -58,7 +63,7 @@ import zlib
   @objc func disableLeapSDK()
   @objc func didLanguageChange(from previousLanguage: Swift.String, to currentLanguage: Swift.String)
   @objc func flush(completion: @escaping () -> Swift.Void)
-  @objc func getProjectParameters() -> [Swift.String : Any]?
+  @objc func getProjectParametersDictionary() -> [Swift.String : Any]?
   @objc func receiveAUIEvent(action: Swift.Dictionary<Swift.String, Any>)
   @objc func receiveSurveyEvent(listOfSurveyInfo: Swift.Array<Swift.Dictionary<Swift.String, Any>>)
 }
