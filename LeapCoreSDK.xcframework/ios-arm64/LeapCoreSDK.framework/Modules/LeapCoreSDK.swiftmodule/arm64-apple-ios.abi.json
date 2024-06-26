@@ -457,6 +457,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LeapCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -13606,6 +13616,62 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 28,
+      "value": "\"Leap Analytics Flush Queue\""
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 458,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 13,
+      "value": "\"isExecuting\""
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 1333,
+      "length": 12,
+      "value": "\"isFinished\""
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1195,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1762,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsFlushOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 506,
+      "length": 27,
+      "value": "\"LeapCoreSDK.LeapAnalyticsFlushOperation\""
+    },
+    {
       "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapContext.swift",
       "kind": "Array",
       "offset": 282,
@@ -14441,28 +14507,28 @@
     {
       "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 518,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 546,
       "length": 1,
       "value": "\"\/odin\/api\/v1\/analytics\""
     },
     {
       "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 582,
+      "offset": 612,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sahilsachedeva\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapAnalyticsNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 610,
+      "offset": 640,
       "length": 1,
       "value": "\"\/odin\/api\/v2\/analytics\""
     },
