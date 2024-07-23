@@ -364,6 +364,12 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
 - (void)appGoesToBackground;
+- (void)startBulkDownloadWithAssetInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)assetInfo possibleBaseUrls:(NSArray<NSString *> * _Nonnull)possibleBaseUrls;
+- (void)presentWindowInstructionWithData:(NSDictionary<NSString *, NSObject *> * _Nonnull)data selectedLanguage:(NSString * _Nonnull)selectedLanguage assosciatedIconRequired:(BOOL)assosciatedIconRequired flowMenuInfo:(NSDictionary<NSString *, NSObject *> * _Nullable)flowMenuInfo;
+- (void)presentInViewInstructionWithData:(NSDictionary<NSString *, NSObject *> * _Nonnull)data rect:(CGRect)rect inView:(UIView * _Nonnull)inView selectedLanguage:(NSString * _Nonnull)selectedLanguage;
+- (void)presentLanguagePanelWithLanguages:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)languages iconInfo:(NSDictionary<NSString *, NSObject *> * _Nullable)iconInfo baseUrl:(NSString * _Nonnull)baseUrl htmlUrl:(NSString * _Nonnull)htmlUrl selectedLocale:(NSString * _Nonnull)selectedLocale languageSelected:(void (^ _Nonnull)(NSString * _Nonnull))languageSelected panelDismissed:(void (^ _Nonnull)(void))panelDismissed;
+- (void)presentLeapButtonWithIconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo disableDict:(NSDictionary<NSString *, NSString *> * _Nonnull (^ _Nonnull)(void))disableDict showIconOptionOnTap:(BOOL (^ _Nonnull)(void))showIconOptionOnTap disableCallbacks:(void (^ _Nonnull)(BOOL, BOOL, BOOL))disableCallbacks iconOptionsCallback:(void (^ _Nonnull)(BOOL, BOOL))iconOptionsCallback iconOptionsInfo:(NSDictionary<NSString *, NSString *> * _Nonnull (^ _Nonnull)(void))iconOptionsInfo;
+- (void)clearAllViewsWithIsAutoDismiss:(BOOL)isAutoDismiss;
 @end
 
 
@@ -374,6 +380,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
 
 
 
@@ -810,6 +819,12 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 - (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
 - (void)removeAllViews;
 - (void)appGoesToBackground;
+- (void)startBulkDownloadWithAssetInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)assetInfo possibleBaseUrls:(NSArray<NSString *> * _Nonnull)possibleBaseUrls;
+- (void)presentWindowInstructionWithData:(NSDictionary<NSString *, NSObject *> * _Nonnull)data selectedLanguage:(NSString * _Nonnull)selectedLanguage assosciatedIconRequired:(BOOL)assosciatedIconRequired flowMenuInfo:(NSDictionary<NSString *, NSObject *> * _Nullable)flowMenuInfo;
+- (void)presentInViewInstructionWithData:(NSDictionary<NSString *, NSObject *> * _Nonnull)data rect:(CGRect)rect inView:(UIView * _Nonnull)inView selectedLanguage:(NSString * _Nonnull)selectedLanguage;
+- (void)presentLanguagePanelWithLanguages:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)languages iconInfo:(NSDictionary<NSString *, NSObject *> * _Nullable)iconInfo baseUrl:(NSString * _Nonnull)baseUrl htmlUrl:(NSString * _Nonnull)htmlUrl selectedLocale:(NSString * _Nonnull)selectedLocale languageSelected:(void (^ _Nonnull)(NSString * _Nonnull))languageSelected panelDismissed:(void (^ _Nonnull)(void))panelDismissed;
+- (void)presentLeapButtonWithIconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo disableDict:(NSDictionary<NSString *, NSString *> * _Nonnull (^ _Nonnull)(void))disableDict showIconOptionOnTap:(BOOL (^ _Nonnull)(void))showIconOptionOnTap disableCallbacks:(void (^ _Nonnull)(BOOL, BOOL, BOOL))disableCallbacks iconOptionsCallback:(void (^ _Nonnull)(BOOL, BOOL))iconOptionsCallback iconOptionsInfo:(NSDictionary<NSString *, NSString *> * _Nonnull (^ _Nonnull)(void))iconOptionsInfo;
+- (void)clearAllViewsWithIsAutoDismiss:(BOOL)isAutoDismiss;
 @end
 
 
@@ -820,6 +835,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
 
 
 
