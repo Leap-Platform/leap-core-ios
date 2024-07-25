@@ -26,30 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -434,20 +410,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -529,30 +491,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
       },
       {
         "kind": "Import",
@@ -1545,567 +1483,6 @@
             "declKind": "Func",
             "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)appGoesToBackground",
             "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP19appGoesToBackgroundyyF",
-            "moduleName": "LeapCoreSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
-            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startBulkDownload",
-            "printedName": "startBulkDownload(assetInfo:possibleBaseUrls:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)startBulkDownloadWithAssetInfo:possibleBaseUrls:",
-            "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP17startBulkDownload9assetInfo16possibleBaseUrlsySDySSs11AnyHashableVG_SaySSGtF",
-            "moduleName": "LeapCoreSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
-            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentWindowInstruction",
-            "printedName": "presentWindowInstruction(data:selectedLanguage:assosciatedIconRequired:flowMenuInfo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.AnyHashable]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.AnyHashable]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)presentWindowInstructionWithData:selectedLanguage:assosciatedIconRequired:flowMenuInfo:",
-            "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP24presentWindowInstruction4data16selectedLanguage23assosciatedIconRequired12flowMenuInfoySDySSs11AnyHashableVG_SSSbAKSgtF",
-            "moduleName": "LeapCoreSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
-            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentInViewInstruction",
-            "printedName": "presentInViewInstruction(data:rect:inView:selectedLanguage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)presentInViewInstructionWithData:rect:inView:selectedLanguage:",
-            "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP24presentInViewInstruction4data4rect02inG016selectedLanguageySDySSs11AnyHashableVG_So6CGRectVSo6UIViewCSStF",
-            "moduleName": "LeapCoreSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
-            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentLanguagePanel",
-            "printedName": "presentLanguagePanel(languages:iconInfo:baseUrl:htmlUrl:selectedLocale:languageSelected:panelDismissed:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[[Swift.String : Swift.String]]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.AnyHashable]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.AnyHashable]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyHashable",
-                        "printedName": "Swift.AnyHashable",
-                        "usr": "s:s11AnyHashableV"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)presentLanguagePanelWithLanguages:iconInfo:baseUrl:htmlUrl:selectedLocale:languageSelected:panelDismissed:",
-            "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP20presentLanguagePanel9languages8iconInfo7baseUrl04htmlL014selectedLocale16languageSelected14panelDismissedySaySDyS2SGG_SDySSs11AnyHashableVGSgS3SySScyyctF",
-            "moduleName": "LeapCoreSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
-            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentLeapButton",
-            "printedName": "presentLeapButton(iconInfo:disableDict:showIconOptionOnTap:disableCallbacks:iconOptionsCallback:iconOptionsInfo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> [Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.Bool",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool, Swift.Bool, Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Bool, Swift.Bool, Swift.Bool)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool, Swift.Bool) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Bool, Swift.Bool)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> [Swift.String : Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)presentLeapButtonWithIconInfo:disableDict:showIconOptionOnTap:disableCallbacks:iconOptionsCallback:iconOptionsInfo:",
-            "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP07presentA6Button8iconInfo11disableDict19showIconOptionOnTap0I9Callbacks0G15OptionsCallback0gqH0ySDySSs11AnyHashableVG_SDyS2SGycSbycySb_S2btcySb_SbtcANyctF",
-            "moduleName": "LeapCoreSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
-            "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearAllViews",
-            "printedName": "clearAllViews(isAutoDismiss:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@LeapCoreSDK@objc(pl)LeapAUIHandler(im)clearAllViewsWithIsAutoDismiss:",
-            "mangledName": "$s11LeapCoreSDK0A10AUIHandlerP13clearAllViews13isAutoDismissySb_tF",
             "moduleName": "LeapCoreSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : LeapCoreSDK.LeapAUIHandler>",
             "sugared_genericSig": "<Self where Self : LeapCoreSDK.LeapAUIHandler>",
@@ -3912,30 +3289,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4141,30 +3494,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK"
       },
       {
         "kind": "Import",
@@ -5141,16 +4470,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "LeapCoreSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LeapCoreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -8818,15 +8137,8 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
       "kind": "Dictionary",
-      "offset": 1835,
+      "offset": 1783,
       "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextManager.swift",
-      "kind": "Array",
-      "offset": 2452,
-      "length": 2,
       "value": "[]"
     },
     {
@@ -11205,28 +10517,14 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapStarter.swift",
       "kind": "BooleanLiteral",
-      "offset": 489,
+      "offset": 433,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapStarter.swift",
-      "kind": "StringLiteral",
-      "offset": 534,
-      "length": 51,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapStarter.swift",
-      "kind": "StringLiteral",
-      "offset": 562,
-      "length": 1,
-      "value": "\"\/odin\/api\/v1\/js-module\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapStarter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2637,
+      "offset": 1255,
       "length": 5,
       "value": "false"
     },
@@ -11352,14 +10650,14 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyInfo.swift",
       "kind": "Dictionary",
-      "offset": 273,
+      "offset": 246,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyInfo.swift",
       "kind": "Array",
-      "offset": 311,
+      "offset": 284,
       "length": 2,
       "value": "[]"
     },
@@ -14388,69 +13686,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "Array",
-      "offset": 294,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "Array",
-      "offset": 1146,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1209,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1245,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 7,
-      "value": "\"class\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "StringLiteral",
-      "offset": 2236,
-      "length": 3,
-      "value": "\"z\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 7,
-      "value": "\"class\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "StringLiteral",
-      "offset": 2236,
-      "length": 3,
-      "value": "\"z\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
-      "kind": "FloatLiteral",
-      "offset": 2422,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "StringLiteral",
       "offset": 286,
@@ -14467,30 +13702,9 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/LeapCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 5454,
+      "offset": 4334,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1157,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 1270,
-      "length": 13,
-      "value": "\"iosListener\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1530,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapAUI\/LeapAUIComponents\/LeapLayoutInfo.swift",
@@ -14873,77 +14087,77 @@
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 5165,
+      "offset": 5357,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6524,
+      "offset": 6716,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 7978,
+      "offset": 8170,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 8070,
+      "offset": 8262,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8352,
+      "offset": 8544,
       "length": 6,
       "value": "\"i386\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8360,
+      "offset": 8552,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8370,
+      "offset": 8562,
       "length": 7,
       "value": "\"arm64\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8402,
+      "offset": 8594,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8465,
+      "offset": 8657,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8498,
+      "offset": 8690,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 8505,
+      "offset": 8697,
       "length": 1,
       "value": "\"\""
     },
@@ -15177,293 +14391,6 @@
       "offset": 22362,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 279,
-      "length": 94,
-      "value": "\"(function (webviewScale, totalScreenHeight, totalScreenWidth, topMargin=0, leftMargin=0) {\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 384,
-      "length": 54,
-      "value": "\"    var jinyFetchClientHierarchy = function(root){\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 26,
-      "value": "\"        var node = {};\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 486,
-      "length": 33,
-      "value": "\"        if(root!==undefined){\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 97,
-      "value": "\"            node.uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(\/[xy]\/g, function(c) {\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 50,
-      "value": "\"                var dt = new Date().getTime();\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 699,
-      "length": 59,
-      "value": "\"                var r = (dt + Math.random()*16)%16 | 0;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 769,
-      "length": 43,
-      "value": "\"                dt = Math.floor(dt\/16);\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 823,
-      "length": 66,
-      "value": "\"                return (c=='x' ? r :(r&0x3|0x8)).toString(16);\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 900,
-      "length": 19,
-      "value": "\"            });\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 930,
-      "length": 54,
-      "value": "\"            node.tag = root.tagName.toLowerCase();\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 995,
-      "length": 62,
-      "value": "\"            var attributeNames = root.getAttributeNames();\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1068,
-      "length": 59,
-      "value": "\"            for(var i=0; i<attributeNames.length; i++){\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1138,
-      "length": 83,
-      "value": "\"                node[attributeNames[i]] = root.getAttribute(attributeNames[i]);\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 17,
-      "value": "\"            }\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
-      "length": 49,
-      "value": "\"            var viewportWidth = screen.width;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1320,
-      "length": 51,
-      "value": "\"            var viewportHeight = screen.height;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1382,
-      "length": 55,
-      "value": "\"            node.bounds = root.getClientRects()[0];\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1448,
-      "length": 44,
-      "value": "\"            if(node.bounds!==undefined){\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1503,
-      "length": 47,
-      "value": "\"               node.normalised_bounds = {};\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1561,
-      "length": 126,
-      "value": "\"               node.normalised_bounds.top = (node.bounds.top*totalScreenHeight * webviewScale)\/viewportHeight + topMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1698,
-      "length": 132,
-      "value": "\"               node.normalised_bounds.bottom = (node.bounds.bottom*totalScreenHeight * webviewScale)\/viewportHeight + topMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1841,
-      "length": 127,
-      "value": "\"               node.normalised_bounds.left = (node.bounds.left*totalScreenWidth * webviewScale)\/viewportWidth + leftMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1979,
-      "length": 129,
-      "value": "\"               node.normalised_bounds.right = (node.bounds.right*totalScreenWidth * webviewScale)\/viewportWidth + leftMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2119,
-      "length": 17,
-      "value": "\"            }\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2147,
-      "length": 48,
-      "value": "\"            node.innerText = root.innerText;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2206,
-      "length": 40,
-      "value": "\"            node.value = root.value;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2257,
-      "length": 35,
-      "value": "\"            node.children = [];\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2303,
-      "length": 50,
-      "value": "\"            var childs = root.children.length;\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2364,
-      "length": 54,
-      "value": "\"            for(var child=0;child<childs;child++){\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2429,
-      "length": 86,
-      "value": "\"               node.children.push(jinyFetchClientHierarchy(root.children[child]));\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2526,
-      "length": 17,
-      "value": "\"            }\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2554,
-      "length": 13,
-      "value": "\"        }\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2578,
-      "length": 23,
-      "value": "\"        return node\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2612,
-      "length": 9,
-      "value": "\"    }\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2632,
-      "length": 87,
-      "value": "\"    var layout = jinyFetchClientHierarchy(document.getElementsByTagName('html')[0])\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2730,
-      "length": 37,
-      "value": "\"    return JSON.stringify(layout)\n\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2778,
-      "length": 90,
-      "value": "\"}(${webviewScale},${totalScreenHeight},${totalScreenWidth},${topMargin},${leftMargin}));\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "Dictionary",
-      "offset": 4039,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "Array",
-      "offset": 4139,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "Array",
-      "offset": 4176,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Gzip\/Data+Gzip.swift",
@@ -15884,97 +14811,6 @@
       "offset": 845,
       "length": 21,
       "value": "\"project_termination\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 22,
-      "value": "\"leap_js_saved_events\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 338,
-      "length": 25,
-      "value": "\"leap_js_flushing_events\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 399,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 51,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 611,
-      "length": 1,
-      "value": "\"\/odin\/api\/v1\/analytics\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 13,
-      "value": "\"isExecuting\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 827,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 12,
-      "value": "\"isFinished\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1104,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1542,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 178,
-      "length": 25,
-      "value": "\"LeapCoreSDK.LeapJSEventFlushOperation\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5032,
-      "length": 31,
-      "value": "\"Leap JS Analytics Flush Queue\""
-    },
-    {
-      "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5110,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/aravindgs\/workspace\/ios-source\/LeapCore\/Context\/LeapContextDetector.swift",
