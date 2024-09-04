@@ -14,38 +14,16 @@ import os.log
 import os
 import zlib
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
-  @objc func startMediaFetch()
-  @objc func startOfflineSyncMediaFetch()
-  @objc func setFeature(featureDict: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc func hasClientCallBack() -> Swift.Bool
-  @objc func sendEvent(event: Swift.Dictionary<Swift.String, Any>)
-  @objc func performNativeAssist(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCode: Swift.String)
-  @objc func performWebAssist(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreFoundation.CGRect, webview: UIKit.UIView?, localeCode: Swift.String)
-  @objc func performNativeDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
-  @objc func performWebDiscovery(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreFoundation.CGRect, webview: UIKit.UIView?, localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, localeHtmlUrl: Swift.String?)
-  @objc func performNativeStage(instruction: Swift.Dictionary<Swift.String, Any>, view: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc func performWebStage(instruction: Swift.Dictionary<Swift.String, Any>, rect: CoreFoundation.CGRect, webview: UIKit.UIView?, iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc func updateRect(rect: CoreFoundation.CGRect, inWebView: UIKit.UIView?)
-  @objc func updateView(inView: UIKit.UIView)
-  @objc func showLanguageOptionsIfApplicable(withLocaleCodes localeCodes: Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>, iconInfo: Swift.Dictionary<Swift.String, Any>, localeHtmlUrl: Swift.String?, handler: ((_ success: Swift.Bool) -> Swift.Void)?)
-  @objc func presentLeapButton(for iconInfo: Swift.Dictionary<Swift.String, Swift.AnyHashable>, iconEnabled: Swift.Bool)
-  @objc func removeAllViews()
-  @objc func appGoesToBackground()
+  @objc func startBulkDownload(assetInfo: [Swift.String : Swift.AnyHashable], possibleBaseUrls: [Swift.String])
+  @objc func presentWindowInstruction(data: [Swift.String : Swift.AnyHashable], selectedLanguage: Swift.String, assosciatedIconRequired: Swift.Bool, flowMenuInfo: [Swift.String : Swift.AnyHashable]?)
+  @objc func presentInViewInstruction(data: [Swift.String : Swift.AnyHashable], rect: CoreFoundation.CGRect, anchorView: UIKit.UIView?, parentScroll: UIKit.UIView?, autoFocusScript: Swift.String?, selectedLanguage: Swift.String)
+  @objc func presentLanguagePanel(languages: [[Swift.String : Swift.String]], iconInfo: [Swift.String : Swift.AnyHashable]?, baseUrl: Swift.String, htmlUrl: Swift.String, selectedLocale: Swift.String, languageSelected: @escaping (Swift.String) -> Swift.Void, panelDismissed: @escaping () -> Swift.Void)
+  @objc func presentLeapButton(iconInfo: [Swift.String : Swift.AnyHashable], disableDict: @escaping () -> [Swift.String : Swift.String], showIconOptionOnTap: @escaping () -> Swift.Bool, disableCallbacks: @escaping (_ isPresented: Swift.Bool, _ yesClicked: Swift.Bool, _ noClicked: Swift.Bool) -> Swift.Void, iconOptionsCallback: @escaping (_ stopClicked: Swift.Bool, _ languageClicked: Swift.Bool) -> Swift.Void, iconOptionsInfo: @escaping () -> [Swift.String : Swift.String])
+  @objc func updateRect(rect: CoreFoundation.CGRect, parentView: UIKit.UIView?)
+  @objc func clearAllViews(isAutoDismiss: Swift.Bool)
+  @objc func sendEvent(event: [Swift.String : Swift.AnyHashable])
 }
 @objc public protocol LeapAUICallback : ObjectiveC.NSObjectProtocol {
-  @objc func getDefaultMedia() -> Swift.Dictionary<Swift.String, Any>
-  @objc func getOfflineSyncMedia() -> Swift.Array<Swift.Dictionary<Swift.String, Any>>
-  @objc func getWebScript(_ identifier: Swift.String) -> Swift.String?
-  @objc func isFlowMenu() -> Swift.Bool
-  @objc func getFlowMenuInfo() -> Swift.Dictionary<Swift.String, Swift.Bool>?
-  @objc func getCurrentLanguageOptionsTexts() -> Swift.Dictionary<Swift.String, Swift.String>
-  @objc func getDisableAssistanceTexts() -> [Swift.String : Swift.String]
-  @objc func getLanguagesForCurrentInstruction() -> Swift.Array<Swift.Dictionary<Swift.String, Swift.String>>
-  @objc func getIconInfoForCurrentInstruction() -> Swift.Dictionary<Swift.String, Any>?
-  @objc func getLanguageHtmlUrl() -> Swift.String?
-  @objc func getLanguageCode() -> Swift.String
-  @objc func getOfflineSyncLanguageCodes(for projectId: Swift.String) -> [Swift.String]
-  @objc func getTTSCodeFor(code: Swift.String) -> Swift.String?
   @objc func didHtmlLoad(forUrl url: Swift.String, type: Swift.String, additionalInfoDict: [Swift.String : Any])
   @objc func didStartAnimation(forUrl url: Swift.String, type: Swift.String)
   @objc func didCompleteAnimation(forUrl url: Swift.String, type: Swift.String)
@@ -55,15 +33,6 @@ import zlib
   @objc func failedToPerform()
   @objc func failedToPerformTooltipAssist(with reason: Swift.String)
   @objc func didDismissView(byUser: Swift.Bool, autoDismissed: Swift.Bool, panelOpen: Swift.Bool, action: Swift.Dictionary<Swift.String, Any>?)
-  @objc func leapTapped()
-  @objc func optionPanelOpened()
-  @objc func optionPanelStopClicked()
-  @objc func optionPanelClosed()
-  @objc func disableAssistance()
-  @objc func disableLeapSDK()
-  @objc func didLanguageChange(from previousLanguage: Swift.String, to currentLanguage: Swift.String)
-  @objc func flush(completion: @escaping () -> Swift.Void)
-  @objc func getProjectParametersDictionary() -> [Swift.String : Any]?
   @objc func receiveAUIEvent(action: Swift.Dictionary<Swift.String, Any>)
   @objc func receiveSurveyEvent(listOfSurveyInfo: Swift.Array<Swift.Dictionary<Swift.String, Any>>)
 }
@@ -72,6 +41,7 @@ import zlib
   public func initialize(withToken token: Swift.String, isTesting isTest: Swift.Bool, uiManager: (any LeapCoreSDK.LeapAUIHandler)?, initializeComplete: @escaping () -> Swift.Void) -> (any LeapCoreSDK.LeapAUICallback)?
   public func startProject(projectId: Swift.String, resetProject: Swift.Bool, completion: @escaping () -> Swift.Void)
   public func embedProject(_ projectId: Swift.String, completion: @escaping () -> Swift.Void)
+  public func flush(properties: [Swift.String : Swift.AnyHashable], completion: () -> Swift.Void)
   public func offlineSync(_ projectIds: [Swift.String], completion: @escaping () -> Swift.Void)
   public func startWithSelfHostingUrl(_ hostingBaseUrl: Swift.String, uiManager: (any LeapCoreSDK.LeapAUIHandler)?, selfHostingInitializationCompletion: @escaping () -> Swift.Void) -> (any LeapCoreSDK.LeapAUICallback)?
   public func setUniqueUserId(_ uniqueId: Swift.String, completion: @escaping () -> Swift.Void)

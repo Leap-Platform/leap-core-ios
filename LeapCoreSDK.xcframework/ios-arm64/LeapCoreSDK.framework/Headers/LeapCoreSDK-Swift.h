@@ -305,19 +305,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 @protocol LeapAUICallback <NSObject>
-- (NSDictionary<NSString *, id> * _Nonnull)getDefaultMedia SWIFT_WARN_UNUSED_RESULT;
-- (NSArray<NSDictionary<NSString *, id> *> * _Nonnull)getOfflineSyncMedia SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)getWebScript:(NSString * _Nonnull)identifier SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)isFlowMenu SWIFT_WARN_UNUSED_RESULT;
-- (NSDictionary<NSString *, NSNumber *> * _Nullable)getFlowMenuInfo SWIFT_WARN_UNUSED_RESULT;
-- (NSDictionary<NSString *, NSString *> * _Nonnull)getCurrentLanguageOptionsTexts SWIFT_WARN_UNUSED_RESULT;
-- (NSDictionary<NSString *, NSString *> * _Nonnull)getDisableAssistanceTexts SWIFT_WARN_UNUSED_RESULT;
-- (NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)getLanguagesForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
-- (NSDictionary<NSString *, id> * _Nullable)getIconInfoForCurrentInstruction SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)getLanguageHtmlUrl SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getLanguageCode SWIFT_WARN_UNUSED_RESULT;
-- (NSArray<NSString *> * _Nonnull)getOfflineSyncLanguageCodesFor:(NSString * _Nonnull)projectId SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)getTTSCodeForCode:(NSString * _Nonnull)code SWIFT_WARN_UNUSED_RESULT;
 - (void)didHtmlLoadForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type additionalInfoDict:(NSDictionary<NSString *, id> * _Nonnull)additionalInfoDict;
 - (void)didStartAnimationForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type;
 - (void)didCompleteAnimationForUrl:(NSString * _Nonnull)url type:(NSString * _Nonnull)type;
@@ -327,18 +314,7 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 - (void)failedToPerform;
 - (void)failedToPerformTooltipAssistWith:(NSString * _Nonnull)reason;
 - (void)didDismissViewByUser:(BOOL)byUser autoDismissed:(BOOL)autoDismissed panelOpen:(BOOL)panelOpen action:(NSDictionary<NSString *, id> * _Nullable)action;
-- (void)leapTapped;
-- (void)optionPanelOpened;
-- (void)optionPanelStopClicked;
-- (void)optionPanelClosed;
-- (void)disableAssistance;
-- (void)disableLeapSDK;
-- (void)didLanguageChangeFrom:(NSString * _Nonnull)previousLanguage to:(NSString * _Nonnull)currentLanguage;
-- (void)flushWithCompletion:(void (^ _Nonnull)(void))completion;
-- (NSDictionary<NSString *, id> * _Nullable)getProjectParametersDictionary SWIFT_WARN_UNUSED_RESULT;
-/// receives only AUI info
 - (void)receiveAUIEventWithAction:(NSDictionary<NSString *, id> * _Nonnull)action;
-/// receives only list of survey info
 - (void)receiveSurveyEventWithListOfSurveyInfo:(NSArray<NSDictionary<NSString *, id> *> * _Nonnull)listOfSurveyInfo;
 @end
 
@@ -347,23 +323,14 @@ SWIFT_PROTOCOL("_TtP11LeapCoreSDK15LeapAUICallback_")
 
 SWIFT_PROTOCOL("_TtP11LeapCoreSDK14LeapAUIHandler_")
 @protocol LeapAUIHandler <NSObject>
-- (void)startMediaFetch;
-- (void)startOfflineSyncMediaFetch;
-- (void)setFeatureWithFeatureDict:(NSDictionary<NSString *, NSObject *> * _Nonnull)featureDict;
-- (BOOL)hasClientCallBack SWIFT_WARN_UNUSED_RESULT;
-- (void)sendEventWithEvent:(NSDictionary<NSString *, id> * _Nonnull)event;
-- (void)performNativeAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCode:(NSString * _Nonnull)localeCode;
-- (void)performWebAssistWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction rect:(CGRect)rect webview:(UIView * _Nullable)webview localeCode:(NSString * _Nonnull)localeCode;
-- (void)performNativeDiscoveryWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view localeCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl;
-- (void)performWebDiscoveryWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction rect:(CGRect)rect webview:(UIView * _Nullable)webview localeCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl;
-- (void)performNativeStageWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction view:(UIView * _Nullable)view iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo;
-- (void)performWebStageWithInstruction:(NSDictionary<NSString *, id> * _Nonnull)instruction rect:(CGRect)rect webview:(UIView * _Nullable)webview iconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo;
-- (void)updateRectWithRect:(CGRect)rect inWebView:(UIView * _Nullable)inWebView;
-- (void)updateViewInView:(UIView * _Nonnull)inView;
-- (void)showLanguageOptionsIfApplicableWithLocaleCodes:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)localeCodes iconInfo:(NSDictionary<NSString *, id> * _Nonnull)iconInfo localeHtmlUrl:(NSString * _Nullable)localeHtmlUrl handler:(void (^ _Nullable)(BOOL))handler;
-- (void)presentLeapButtonFor:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo iconEnabled:(BOOL)iconEnabled;
-- (void)removeAllViews;
-- (void)appGoesToBackground;
+- (void)startBulkDownloadWithAssetInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)assetInfo possibleBaseUrls:(NSArray<NSString *> * _Nonnull)possibleBaseUrls;
+- (void)presentWindowInstructionWithData:(NSDictionary<NSString *, NSObject *> * _Nonnull)data selectedLanguage:(NSString * _Nonnull)selectedLanguage assosciatedIconRequired:(BOOL)assosciatedIconRequired flowMenuInfo:(NSDictionary<NSString *, NSObject *> * _Nullable)flowMenuInfo;
+- (void)presentInViewInstructionWithData:(NSDictionary<NSString *, NSObject *> * _Nonnull)data rect:(CGRect)rect anchorView:(UIView * _Nullable)anchorView parentScroll:(UIView * _Nullable)parentScroll autoFocusScript:(NSString * _Nullable)autoFocusScript selectedLanguage:(NSString * _Nonnull)selectedLanguage;
+- (void)presentLanguagePanelWithLanguages:(NSArray<NSDictionary<NSString *, NSString *> *> * _Nonnull)languages iconInfo:(NSDictionary<NSString *, NSObject *> * _Nullable)iconInfo baseUrl:(NSString * _Nonnull)baseUrl htmlUrl:(NSString * _Nonnull)htmlUrl selectedLocale:(NSString * _Nonnull)selectedLocale languageSelected:(void (^ _Nonnull)(NSString * _Nonnull))languageSelected panelDismissed:(void (^ _Nonnull)(void))panelDismissed;
+- (void)presentLeapButtonWithIconInfo:(NSDictionary<NSString *, NSObject *> * _Nonnull)iconInfo disableDict:(NSDictionary<NSString *, NSString *> * _Nonnull (^ _Nonnull)(void))disableDict showIconOptionOnTap:(BOOL (^ _Nonnull)(void))showIconOptionOnTap disableCallbacks:(void (^ _Nonnull)(BOOL, BOOL, BOOL))disableCallbacks iconOptionsCallback:(void (^ _Nonnull)(BOOL, BOOL))iconOptionsCallback iconOptionsInfo:(NSDictionary<NSString *, NSString *> * _Nonnull (^ _Nonnull)(void))iconOptionsInfo;
+- (void)updateRectWithRect:(CGRect)rect parentView:(UIView * _Nullable)parentView;
+- (void)clearAllViewsWithIsAutoDismiss:(BOOL)isAutoDismiss;
+- (void)sendEventWithEvent:(NSDictionary<NSString *, NSObject *> * _Nonnull)event;
 @end
 
 
@@ -374,6 +341,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
 
 
 
