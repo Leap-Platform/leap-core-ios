@@ -12051,21 +12051,28 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1249,
+      "offset": 933,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1295,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1362,
+      "offset": 1408,
       "length": 13,
       "value": "\"iosListener\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1622,
+      "offset": 1668,
       "length": 4,
       "value": "true"
     },
@@ -12366,28 +12373,28 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Self Hosting\/LeapSegmentDownloadManager.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 723,
       "length": 13,
       "value": "\"isExecuting\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Self Hosting\/LeapSegmentDownloadManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Self Hosting\/LeapSegmentDownloadManager.swift",
       "kind": "StringLiteral",
-      "offset": 978,
+      "offset": 999,
       "length": 12,
       "value": "\"isFinished\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Self Hosting\/LeapSegmentDownloadManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 840,
+      "offset": 861,
       "length": 5,
       "value": "false"
     },
@@ -12401,14 +12408,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Self Hosting\/LeapSegmentDownloadManager.swift",
       "kind": "StringLiteral",
-      "offset": 3579,
+      "offset": 3621,
       "length": 29,
       "value": "\"Leap Segment Download Queue\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Self Hosting\/LeapSegmentDownloadManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3653,
+      "offset": 3695,
       "length": 1,
       "value": "1"
     },
@@ -12541,56 +12548,56 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 926,
       "length": 13,
       "value": "\"isExecuting\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "BooleanLiteral",
-      "offset": 766,
+      "offset": 787,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1202,
       "length": 12,
       "value": "\"isFinished\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "BooleanLiteral",
-      "offset": 1043,
+      "offset": 1064,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1484,
       "length": 35,
       "value": "\"LeapCoreSDK.LeapDetailedAnalyticsEventOperation\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "StringLiteral",
-      "offset": 6048,
+      "offset": 6090,
       "length": 28,
       "value": "\"leap_saved_detailed_events\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "StringLiteral",
-      "offset": 6127,
+      "offset": 6169,
       "length": 28,
       "value": "\"leap_flush_detailed_events\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapDetailedAnalyticsGateway.swift",
       "kind": "IntegerLiteral",
-      "offset": 6195,
+      "offset": 6237,
       "length": 2,
       "value": "50"
     },
@@ -13269,70 +13276,70 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 265,
+      "offset": 286,
       "length": 22,
       "value": "\"leap_js_saved_events\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 338,
+      "offset": 359,
       "length": 25,
       "value": "\"leap_js_flushing_events\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 399,
+      "offset": 420,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 639,
       "length": 51,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 667,
       "length": 1,
       "value": "\"\/odin\/api\/v1\/analytics\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 1022,
       "length": 13,
       "value": "\"isExecuting\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 862,
+      "offset": 883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 1298,
       "length": 12,
       "value": "\"isFinished\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1139,
+      "offset": 1160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1577,
+      "offset": 1598,
       "length": 5,
       "value": "false"
     },
@@ -13346,14 +13353,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5812,
+      "offset": 5833,
       "length": 31,
       "value": "\"Leap JS Analytics Flush Queue\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Analytics\/LeapJSAnalyticsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5890,
+      "offset": 5911,
       "length": 1,
       "value": "1"
     },
