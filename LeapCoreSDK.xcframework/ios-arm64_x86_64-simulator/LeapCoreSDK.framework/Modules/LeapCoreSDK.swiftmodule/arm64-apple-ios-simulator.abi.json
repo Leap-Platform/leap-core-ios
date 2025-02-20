@@ -12030,7 +12030,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
       "kind": "StringLiteral",
-      "offset": 16364,
+      "offset": 17529,
       "length": 21,
       "value": "\"LeapCoreSDK.LeapFlutterViewBounds\""
     },
