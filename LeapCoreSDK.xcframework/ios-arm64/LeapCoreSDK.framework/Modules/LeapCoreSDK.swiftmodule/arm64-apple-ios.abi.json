@@ -12023,14 +12023,14 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
       "kind": "StringLiteral",
-      "offset": 9331,
+      "offset": 9384,
       "length": 30,
       "value": "\"LeapCoreSDK.LeapUnfilteredFlutterViewProps\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapUnfilteredViewProps.swift",
       "kind": "StringLiteral",
-      "offset": 17529,
+      "offset": 17582,
       "length": 21,
       "value": "\"LeapCoreSDK.LeapFlutterViewBounds\""
     },
@@ -12078,8 +12078,15 @@
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 13,
+      "value": "\"LeapWebview\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1668,
+      "offset": 1728,
       "length": 4,
       "value": "true"
     },
