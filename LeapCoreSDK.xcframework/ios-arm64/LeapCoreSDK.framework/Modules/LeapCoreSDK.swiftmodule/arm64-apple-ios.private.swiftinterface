@@ -47,6 +47,7 @@ import zlib
   public func setUniqueUserId(_ uniqueId: Swift.String, completion: @escaping () -> Swift.Void)
   public func setAppLocale(_ localeCode: Swift.String)
   public func logout(logoutComplete: @escaping () -> Swift.Void)
+  public func getNativeHierarchy(_ view: UIKit.UIView, completion: @escaping (_ viewHierarchy: Swift.String?) -> Swift.Void)
   @objc deinit
 }
 public struct CompressionLevel : Swift.RawRepresentable {
