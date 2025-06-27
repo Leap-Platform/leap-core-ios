@@ -13,6 +13,11 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 import zlib
+@_hasMissingDesignatedInitializers public class LeapMemoryMonitor {
+  public static let shared: LeapCoreSDK.LeapMemoryMonitor
+  public func startMonitoring()
+  @objc deinit
+}
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
   @objc func startBulkDownload(assetInfo: [Swift.String : Swift.AnyHashable], possibleBaseUrls: [Swift.String])
   @objc func presentWindowInstruction(data: [Swift.String : Swift.AnyHashable], selectedLanguage: Swift.String, assosciatedIconRequired: Swift.Bool, flowMenuInfo: [Swift.String : Swift.AnyHashable]?)
@@ -43,10 +48,10 @@ import zlib
   public func embedProject(_ projectId: Swift.String, completion: @escaping () -> Swift.Void)
   public func flush(properties: [Swift.String : Swift.AnyHashable], completion: () -> Swift.Void)
   public func offlineSync(_ projectIds: [Swift.String], completion: @escaping () -> Swift.Void)
-  public func startWithSelfHostingUrl(_ hostingBaseUrl: Swift.String, uiManager: (any LeapCoreSDK.LeapAUIHandler)?, selfHostingInitializationCompletion: @escaping () -> Swift.Void) -> (any LeapCoreSDK.LeapAUICallback)?
   public func setUniqueUserId(_ uniqueId: Swift.String, completion: @escaping () -> Swift.Void)
   public func setAppLocale(_ localeCode: Swift.String)
   public func logout(logoutComplete: @escaping () -> Swift.Void)
+  public func sendObserverLog(_ log: [Swift.String : Swift.AnyHashable])
   public func getNativeHierarchy(_ view: UIKit.UIView, completion: @escaping (_ viewHierarchy: Swift.String?) -> Swift.Void)
   @objc deinit
 }

@@ -2,26 +2,44 @@
 
 <head>
     <title>WebView Content</title>
-    <script>
-        var myIp = "172.16.16.133";
-        var scripts = [
-            "src/ts/js/variables.js",
-            "src/ts/js/helperFunctions.js",
-            "src/ts/js/filterHierarchy.js",
-            "src/ts/js/finder.js",
-            "src/ts/js/observable.js",
-            "src/ts/js/listener.js",
-            "src/ts/js/webFinder.js",
-            "src/ts/js/init.js",
-            "src/ts/js/index.js"
-        ];
-
-        scripts.forEach(function (script) {
-            var scriptElement = document.createElement('script');
-            scriptElement.src = `http://${myIp}:5500/${script}`;
-            document.head.appendChild(scriptElement);
-        });
-    </script>
+    <script src="http://172.16.35.227:5500/src/ts/js/variables.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/helperFunctions.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/filterHierarchy.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/finder.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/observable.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/listener.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/webFinder.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/init.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/sdkStateService.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/observer/observerLogService.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/user/userProfileService.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/utils/globalErrorHandler.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/utils/globalSchedulerService.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/utils/networkService.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/api/apiService.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/analytics/analytics.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/analytics/surveyAnalytics.js"></script>
+    <script src="http://172.16.35.227:5500/src/ts/js/index.js"></script>
+<!--    <script>-->
+<!--        var myIp = "172.16.16.133";-->
+<!--        var scripts = [-->
+<!--            "src/ts/js/variables.js",-->
+<!--            "src/ts/js/helperFunctions.js",-->
+<!--            "src/ts/js/filterHierarchy.js",-->
+<!--            "src/ts/js/finder.js",-->
+<!--            "src/ts/js/observable.js",-->
+<!--            "src/ts/js/listener.js",-->
+<!--            "src/ts/js/webFinder.js",-->
+<!--            "src/ts/js/init.js",-->
+<!--            "src/ts/js/index.js"-->
+<!--        ];-->
+<!---->
+<!--        scripts.forEach(function (script) {-->
+<!--            var scriptElement = document.createElement('script');-->
+<!--            scriptElement.src = `http://${myIp}:5500/${script}`;-->
+<!--            document.head.appendChild(scriptElement);-->
+<!--        });-->
+<!--    </script>-->
 </head>
 
 <body>

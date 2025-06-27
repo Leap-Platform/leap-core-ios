@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yp0L79ZG4WmFYeGeGzv/BK2/aOw=
+		ho9qf8Gxee3t2jSH+OirmaERBVg=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kBmSpccDOii0IF8mjpazak0j5Nc=
+		1NYk+rAph1PrYdyEdzONy8WcTzk=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RMInj0m8Bu8G+SKgzrq0i8uqu5I=
+		5RrgPbEEja5iVHphn03OXruda3Y=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RMInj0m8Bu8G+SKgzrq0i8uqu5I=
+		5RrgPbEEja5iVHphn03OXruda3Y=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7iGPX6V8JNAcgrP2VyfFbtLTbPE=
+		d47GnzvQMSYUujUCUNaYDcVJFi4=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kBmSpccDOii0IF8mjpazak0j5Nc=
+		1NYk+rAph1PrYdyEdzONy8WcTzk=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qdsWtXgF5ZQxjcr4GeCy4K+BuXU=
+		UQ7mLXoZykdfwRJ52rTfUETjohA=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qdsWtXgF5ZQxjcr4GeCy4K+BuXU=
+		UQ7mLXoZykdfwRJ52rTfUETjohA=
 		</data>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2r+A2u2aSS4r/bgRZOjw4DxS6yY=
+		Ub0QClgAa0zZrLlV6KobVbD7JoQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,45 +68,9 @@
 		<data>
 		LHUxcYX1O9JoDyAdCEgZFJglgWM=
 		</data>
-		<key>filterHierarchy.js</key>
-		<data>
-		Yh2ZXGYPtQFWaCI9U/Z+WvYNOOM=
-		</data>
-		<key>finder.js</key>
-		<data>
-		qzMERlriQ0opcb9/47HfGxe5VCM=
-		</data>
-		<key>helperFunctions.js</key>
-		<data>
-		lffELLIQmfF58pScskxQCtviP1E=
-		</data>
 		<key>index.html</key>
 		<data>
-		UWi/Try/qKDBt7gTh+Z0cmzSut4=
-		</data>
-		<key>index.js</key>
-		<data>
-		miMsjtck9lc8iM/Tw4TMgTjs10o=
-		</data>
-		<key>init.js</key>
-		<data>
-		zNhHaBCHXOWjPCFk/8BBWOsFwUc=
-		</data>
-		<key>listener.js</key>
-		<data>
-		qCgoH86+2ZZQqQy+YkT05U5b9zw=
-		</data>
-		<key>observable.js</key>
-		<data>
-		cN6NDCPzI3sNj6BhCxR7GxnQnyc=
-		</data>
-		<key>variables.js</key>
-		<data>
-		AsWMcN5x8RvU+PZYsKZeltel5mY=
-		</data>
-		<key>webFinder.js</key>
-		<data>
-		G7SvtksQiIR84E3wTvJxDPmTcbQ=
+		kML6WYxBB4FB8JelT0Amx/yuiiY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -137,22 +101,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kBmSpccDOii0IF8mjpazak0j5Nc=
+			1NYk+rAph1PrYdyEdzONy8WcTzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CK2w4NpyjAN5QQZ8uWsk2bUwUR/BBP+IioBXav3ywK4=
+			cA4BdC6q7dNjiLgr2SY4dLmRTPUpaNz202zRoMbs/7U=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RMInj0m8Bu8G+SKgzrq0i8uqu5I=
+			5RrgPbEEja5iVHphn03OXruda3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			KuTnYPEVTS7VWonxeY0iRKtdgAFrTTDB5CMCATA4nJY=
+			Q4LC5k3Y4JzTr6hVLhCQjm8DoSEmtImmIU3NqoWGrFA=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -170,44 +134,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RMInj0m8Bu8G+SKgzrq0i8uqu5I=
+			5RrgPbEEja5iVHphn03OXruda3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			KuTnYPEVTS7VWonxeY0iRKtdgAFrTTDB5CMCATA4nJY=
+			Q4LC5k3Y4JzTr6hVLhCQjm8DoSEmtImmIU3NqoWGrFA=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7iGPX6V8JNAcgrP2VyfFbtLTbPE=
+			d47GnzvQMSYUujUCUNaYDcVJFi4=
 			</data>
 			<key>hash2</key>
 			<data>
-			h8SdSttldhgyM8j4QjffykuOSHTTuHEN/73QSqD+va0=
+			PKIsFKRbkNm2UlF+djgIL1RCtrgm9irXWQJ6WgTdqss=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kBmSpccDOii0IF8mjpazak0j5Nc=
+			1NYk+rAph1PrYdyEdzONy8WcTzk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CK2w4NpyjAN5QQZ8uWsk2bUwUR/BBP+IioBXav3ywK4=
+			cA4BdC6q7dNjiLgr2SY4dLmRTPUpaNz202zRoMbs/7U=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qdsWtXgF5ZQxjcr4GeCy4K+BuXU=
+			UQ7mLXoZykdfwRJ52rTfUETjohA=
 			</data>
 			<key>hash2</key>
 			<data>
-			30jty1N2pbbTdN4uNCJM9vmCSBL+02qkY0nN/O4b53M=
+			htRFoCxGGmX6CVhXdbottEsh8VMWUOWm9X4+RB7up94=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -225,22 +189,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qdsWtXgF5ZQxjcr4GeCy4K+BuXU=
+			UQ7mLXoZykdfwRJ52rTfUETjohA=
 			</data>
 			<key>hash2</key>
 			<data>
-			30jty1N2pbbTdN4uNCJM9vmCSBL+02qkY0nN/O4b53M=
+			htRFoCxGGmX6CVhXdbottEsh8VMWUOWm9X4+RB7up94=
 			</data>
 		</dict>
 		<key>Modules/LeapCoreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2r+A2u2aSS4r/bgRZOjw4DxS6yY=
+			Ub0QClgAa0zZrLlV6KobVbD7JoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			IbjncgwGRE19ROYBX1Oe/c7r641pfpwwmPTzrFSvt9Y=
+			HrW1regq1GxY94DmMBnvpmvEWHxdFFkPd/lhc0MFHP0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -276,114 +240,15 @@
 			50D3VnXwytYw4kqsRQ3t6mFbmkK2m8PqTzINQ75SMis=
 			</data>
 		</dict>
-		<key>filterHierarchy.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Yh2ZXGYPtQFWaCI9U/Z+WvYNOOM=
-			</data>
-			<key>hash2</key>
-			<data>
-			/T5/qfuLk1WxnEHUh05NOuTtyTv9t//WugOmQkNxGrk=
-			</data>
-		</dict>
-		<key>finder.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qzMERlriQ0opcb9/47HfGxe5VCM=
-			</data>
-			<key>hash2</key>
-			<data>
-			eXohjh1RzQP/br9JVJ3oGcg38LoDV0T9RgHKL/8axYE=
-			</data>
-		</dict>
-		<key>helperFunctions.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lffELLIQmfF58pScskxQCtviP1E=
-			</data>
-			<key>hash2</key>
-			<data>
-			QSEkautVizEluK+FIWLU81su1OPtl1LnrNZr0FmiHv8=
-			</data>
-		</dict>
 		<key>index.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UWi/Try/qKDBt7gTh+Z0cmzSut4=
+			kML6WYxBB4FB8JelT0Amx/yuiiY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6vnuIYVDiwHs5K4wAuJY7lgwoEjbgOBFO/1yAoSgexs=
-			</data>
-		</dict>
-		<key>index.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			miMsjtck9lc8iM/Tw4TMgTjs10o=
-			</data>
-			<key>hash2</key>
-			<data>
-			WUo5dl6UIe9kfH+wqNjfF8tPNHh87S7NM8R1LTAI2DA=
-			</data>
-		</dict>
-		<key>init.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zNhHaBCHXOWjPCFk/8BBWOsFwUc=
-			</data>
-			<key>hash2</key>
-			<data>
-			25ErMynxajWBjRYKDOQAweqAeQYjFhNatcwbXfKJLq0=
-			</data>
-		</dict>
-		<key>listener.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qCgoH86+2ZZQqQy+YkT05U5b9zw=
-			</data>
-			<key>hash2</key>
-			<data>
-			CAFuxxshXeAcgsdRsFZMdCkXKW+VCzYA41PalwrVa4M=
-			</data>
-		</dict>
-		<key>observable.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cN6NDCPzI3sNj6BhCxR7GxnQnyc=
-			</data>
-			<key>hash2</key>
-			<data>
-			u5O2JbIAiHv52SPjb7CykogJv6dPU6B+njURis8IAIk=
-			</data>
-		</dict>
-		<key>variables.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AsWMcN5x8RvU+PZYsKZeltel5mY=
-			</data>
-			<key>hash2</key>
-			<data>
-			irekUG9XJXyD+I19ZzBDQ7nUZUZfSn90I/j5p0pIvuI=
-			</data>
-		</dict>
-		<key>webFinder.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G7SvtksQiIR84E3wTvJxDPmTcbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			fPlylAa4iYcK+js5MMkrPqNBQ18rfKZi9XU5+oQ4bPk=
+			BQzvbaQkeHJz7PjArxi/H7NcPmLSrFs+DjE/VdvwNFQ=
 			</data>
 		</dict>
 	</dict>
