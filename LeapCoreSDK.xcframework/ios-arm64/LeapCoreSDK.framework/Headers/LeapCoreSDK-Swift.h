@@ -349,6 +349,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 
 
 
+
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 

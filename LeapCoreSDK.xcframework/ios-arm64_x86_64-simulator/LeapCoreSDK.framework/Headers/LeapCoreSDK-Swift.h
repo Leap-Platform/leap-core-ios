@@ -349,6 +349,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 
 
 
+
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
@@ -757,6 +758,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
