@@ -277,7 +277,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
 @import CoreFoundation;
 @import Foundation;
 @import ObjectiveC;
@@ -349,63 +348,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LeapCore * _
 
 
 
-
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-
-SWIFT_CLASS("_TtC11LeapCoreSDK11WfxLogEntry")
-@interface WfxLogEntry : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class WfxLogSession;
-
-@interface WfxLogEntry (SWIFT_EXTENSION(LeapCoreSDK))
-@property (nonatomic, copy) NSString * _Nullable extras;
-@property (nonatomic, copy) NSString * _Nullable id;
-@property (nonatomic, copy) NSString * _Nullable message;
-@property (nonatomic, copy) NSString * _Nullable sdk;
-@property (nonatomic, copy) NSString * _Nullable sessionId;
-@property (nonatomic, copy) NSString * _Nullable subTitle;
-@property (nonatomic, copy) NSString * _Nullable subType;
-@property (nonatomic, copy) NSString * _Nullable timestamp;
-@property (nonatomic, copy) NSString * _Nullable title;
-@property (nonatomic, copy) NSString * _Nullable type;
-@property (nonatomic, strong) WfxLogSession * _Nullable wfxLogSession;
-@end
-
-
-SWIFT_CLASS("_TtC11LeapCoreSDK13WfxLogSession")
-@interface WfxLogSession : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSIndexSet;
-@class NSOrderedSet;
-
-@interface WfxLogSession (SWIFT_EXTENSION(LeapCoreSDK))
-- (void)insertObject:(WfxLogEntry * _Nonnull)value inWfxLogEntriesAtIndex:(NSInteger)idx;
-- (void)removeObjectFromWfxLogEntriesAtIndex:(NSInteger)idx;
-- (void)insertWfxLogEntries:(NSArray<WfxLogEntry *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
-- (void)removeWfxLogEntriesAtIndexes:(NSIndexSet * _Nonnull)indexes;
-- (void)replaceObjectInWfxLogEntriesAtIndex:(NSInteger)idx withObject:(WfxLogEntry * _Nonnull)value;
-- (void)replaceWfxLogEntriesAtIndexes:(NSIndexSet * _Nonnull)indexes withWfxLogEntries:(NSArray<WfxLogEntry *> * _Nonnull)values;
-- (void)addWfxLogEntriesObject:(WfxLogEntry * _Nonnull)value;
-- (void)removeWfxLogEntriesObject:(WfxLogEntry * _Nonnull)value;
-- (void)addWfxLogEntries:(NSOrderedSet * _Nonnull)values;
-- (void)removeWfxLogEntries:(NSOrderedSet * _Nonnull)values;
-@end
-
-
-@interface WfxLogSession (SWIFT_EXTENSION(LeapCoreSDK))
-@property (nonatomic, copy) NSString * _Nullable appVersion;
-@property (nonatomic, copy) NSString * _Nullable createdAt;
-@property (nonatomic, copy) NSString * _Nullable endedAt;
-@property (nonatomic, copy) NSString * _Nullable extras;
-@property (nonatomic, copy) NSString * _Nullable sdkVersion;
-@property (nonatomic, copy) NSString * _Nullable sessionId;
-@property (nonatomic, strong) NSOrderedSet * _Nullable wfxLogEntries;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)
