@@ -20,7 +20,7 @@ import zlib
 @objc public protocol LeapAUIHandler : ObjectiveC.NSObjectProtocol {
   @objc func startBulkDownload(assetInfo: [Swift.String : Swift.AnyHashable], possibleBaseUrls: [Swift.String])
   @objc func presentWindowInstruction(data: [Swift.String : Swift.AnyHashable], selectedLanguage: Swift.String, assosciatedIconRequired: Swift.Bool, flowMenuInfo: [Swift.String : Swift.AnyHashable]?)
-  @objc func presentInViewInstruction(data: [Swift.String : Swift.AnyHashable], rect: CoreFoundation.CGRect, anchorView: UIKit.UIView?, parentScroll: UIKit.UIView?, autoFocusScript: Swift.String?, selectedLanguage: Swift.String)
+  @objc func presentInViewInstruction(data: [Swift.String : Swift.AnyHashable], rect: CoreFoundation.CGRect, anchorView: UIKit.UIView?, parentScroll: UIKit.UIView?, autoFocusScript: Swift.String?, autoScrollScript: Swift.String?, selectedLanguage: Swift.String)
   @objc func presentLanguagePanel(languages: [[Swift.String : Swift.String]], iconInfo: [Swift.String : Swift.AnyHashable]?, baseUrl: Swift.String, htmlUrl: Swift.String, selectedLocale: Swift.String, languageSelected: @escaping (Swift.String) -> Swift.Void, panelDismissed: @escaping () -> Swift.Void)
   @objc func presentLeapButton(iconInfo: [Swift.String : Swift.AnyHashable], disableDict: @escaping () -> [Swift.String : Swift.String], showIconOptionOnTap: @escaping () -> Swift.Bool, disableCallbacks: @escaping (_ isPresented: Swift.Bool, _ yesClicked: Swift.Bool, _ noClicked: Swift.Bool) -> Swift.Void, iconOptionsCallback: @escaping (_ stopClicked: Swift.Bool, _ languageClicked: Swift.Bool) -> Swift.Void, iconOptionsInfo: @escaping () -> [Swift.String : Swift.String])
   @objc func updateRect(rect: CoreFoundation.CGRect, parentView: UIKit.UIView?)
