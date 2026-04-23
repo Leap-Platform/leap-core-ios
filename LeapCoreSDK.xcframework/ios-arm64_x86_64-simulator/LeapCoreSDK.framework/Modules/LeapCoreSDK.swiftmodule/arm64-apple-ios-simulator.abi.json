@@ -315,6 +315,13 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "LeapCoreSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6470,7 +6477,7 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapStarter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6740,
+      "offset": 6725,
       "length": 5,
       "value": "false"
     },
@@ -9256,210 +9263,301 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 17942,
+      "offset": 17948,
+      "length": 8,
+      "value": "\"assist\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 17987,
+      "length": 16,
+      "value": "\"leap_userState\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18033,
+      "length": 15,
+      "value": "\"currentUserId\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18075,
+      "length": 12,
+      "value": "\"userStates\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18118,
+      "length": 16,
+      "value": "\"projectsStatus\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18163,
+      "length": 14,
+      "value": "\"projectArray\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18251,
+      "length": 28,
+      "value": "\"leap_developer_mode_status\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18325,
+      "length": 29,
+      "value": "\"leap_developer_mode_api_key\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18396,
+      "length": 25,
+      "value": "\"leap_developer_mode_env\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18466,
+      "length": 28,
+      "value": "\"leap_developer_mode_js_url\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18543,
+      "length": 32,
+      "value": "\"leap_developer_mode_app_locale\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18631,
+      "length": 39,
+      "value": "\"leap_developer_mode_custom_properties\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18723,
+      "length": 43,
+      "value": "\"leap_developer_mode_original_custom_props\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 18813,
       "length": 13,
       "value": "\"element_top\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 17984,
+      "offset": 18855,
       "length": 14,
       "value": "\"element_left\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18028,
+      "offset": 18899,
       "length": 15,
       "value": "\"element_right\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18074,
+      "offset": 18945,
       "length": 16,
       "value": "\"element_bottom\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18139,
+      "offset": 19010,
       "length": 29,
       "value": "\"leap_custom_long_properties\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18201,
+      "offset": 19072,
       "length": 31,
       "value": "\"leap_custom_string_properties\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18262,
+      "offset": 19133,
       "length": 28,
       "value": "\"leap_custom_int_properties\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18322,
+      "offset": 19193,
       "length": 24,
       "value": "\"all_user_properties_js\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18379,
+      "offset": 19250,
       "length": 30,
       "value": "\"leap_default_long_properties\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18443,
+      "offset": 19314,
       "length": 32,
       "value": "\"leap_default_string_properties\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18506,
+      "offset": 19377,
       "length": 29,
       "value": "\"leap_default_int_properties\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18561,
+      "offset": 19432,
       "length": 23,
       "value": "\"leap_last_session_end\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18606,
+      "offset": 19477,
       "length": 27,
       "value": "\"leap_last_session_version\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18684,
+      "offset": 19555,
       "length": 17,
       "value": "\"carouselSlideId\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18741,
+      "offset": 19612,
       "length": 25,
       "value": "\"carouselPreviousSlideId\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18801,
+      "offset": 19672,
       "length": 20,
       "value": "\"carouselSlideIndex\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18864,
+      "offset": 19735,
       "length": 28,
       "value": "\"carouselPreviousSlideIndex\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18926,
+      "offset": 19797,
       "length": 19,
       "value": "\"carouselDirection\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 18979,
+      "offset": 19850,
       "length": 19,
       "value": "\"carouselCompleted\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19039,
+      "offset": 19910,
       "length": 5,
       "value": "\"cer\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19100,
+      "offset": 19971,
       "length": 28,
       "value": "\"^https:\/\/.*\\.leap\\.is.*$\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19181,
+      "offset": 20052,
       "length": 11,
       "value": "\"#5532FFFF\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19240,
+      "offset": 20111,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19271,
+      "offset": 20142,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19301,
+      "offset": 20172,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19333,
+      "offset": 20204,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19368,
+      "offset": 20239,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19437,
+      "offset": 20308,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19497,
+      "offset": 20368,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapConstants.swift",
       "kind": "StringLiteral",
-      "offset": 19543,
+      "offset": 20414,
       "length": 14,
       "value": "\"CFBundleName\""
     },
@@ -9921,77 +10019,77 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 6605,
+      "offset": 7024,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 7964,
+      "offset": 8383,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 9652,
+      "offset": 10079,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "IntegerLiteral",
-      "offset": 9744,
+      "offset": 10171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10026,
+      "offset": 10453,
       "length": 6,
       "value": "\"i386\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10034,
+      "offset": 10461,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10044,
+      "offset": 10471,
       "length": 7,
       "value": "\"arm64\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10076,
+      "offset": 10503,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10139,
+      "offset": 10566,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10172,
+      "offset": 10599,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapUtils.swift",
       "kind": "StringLiteral",
-      "offset": 10179,
+      "offset": 10606,
       "length": 1,
       "value": "\"\""
     },
@@ -10104,356 +10202,20 @@
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
       "kind": "StringLiteral",
       "offset": 279,
-      "length": 94,
-      "value": "\"(function (webviewScale, totalScreenHeight, totalScreenWidth, topMargin=0, leftMargin=0) {\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 54,
-      "value": "\"    var jinyFetchClientHierarchy = function(root){\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 441,
-      "length": 26,
-      "value": "\"        var node = {};\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 474,
-      "length": 33,
-      "value": "\"        if(root!==undefined){\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 97,
-      "value": "\"            node.uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(\/[xy]\/g, function(c) {\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 618,
-      "length": 50,
-      "value": "\"                var dt = new Date().getTime();\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 675,
-      "length": 59,
-      "value": "\"                var r = (dt + Math.random()*16)%16 | 0;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 741,
-      "length": 43,
-      "value": "\"                dt = Math.floor(dt\/16);\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 791,
-      "length": 66,
-      "value": "\"                return (c=='x' ? r :(r&0x3|0x8)).toString(16);\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 864,
-      "length": 19,
-      "value": "\"            });\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 890,
-      "length": 54,
-      "value": "\"            node.tag = root.tagName.toLowerCase();\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 951,
-      "length": 62,
-      "value": "\"            var attributeNames = root.getAttributeNames();\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1020,
-      "length": 59,
-      "value": "\"            for(var i=0; i<attributeNames.length; i++){\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1086,
-      "length": 83,
-      "value": "\"                node[attributeNames[i]] = root.getAttribute(attributeNames[i]);\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1176,
-      "length": 17,
-      "value": "\"            }\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1200,
-      "length": 49,
-      "value": "\"            var viewportWidth = screen.width;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1256,
-      "length": 51,
-      "value": "\"            var viewportHeight = screen.height;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1314,
-      "length": 55,
-      "value": "\"            node.bounds = root.getClientRects()[0];\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1376,
-      "length": 44,
-      "value": "\"            if(node.bounds!==undefined){\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1427,
-      "length": 47,
-      "value": "\"               node.normalised_bounds = {};\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1481,
-      "length": 126,
-      "value": "\"               node.normalised_bounds.top = (node.bounds.top*totalScreenHeight * webviewScale)\/viewportHeight + topMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1614,
-      "length": 132,
-      "value": "\"               node.normalised_bounds.bottom = (node.bounds.bottom*totalScreenHeight * webviewScale)\/viewportHeight + topMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1753,
-      "length": 127,
-      "value": "\"               node.normalised_bounds.left = (node.bounds.left*totalScreenWidth * webviewScale)\/viewportWidth + leftMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1887,
-      "length": 129,
-      "value": "\"               node.normalised_bounds.right = (node.bounds.right*totalScreenWidth * webviewScale)\/viewportWidth + leftMargin;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2023,
-      "length": 17,
-      "value": "\"            }\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2047,
-      "length": 48,
-      "value": "\"            node.innerText = root.innerText;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2102,
-      "length": 40,
-      "value": "\"            node.value = root.value;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2161,
-      "length": 21,
-      "value": "\"node.children = [];\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2197,
-      "length": 18,
-      "value": "\"let children=[];\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2230,
-      "length": 52,
-      "value": "\"if(typeof root.assignedElements === 'function'){\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2297,
-      "length": 39,
-      "value": "\"children = root.assignedElements();\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2351,
-      "length": 5,
-      "value": "\"}\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2371,
-      "length": 28,
-      "value": "\"if(children.length===0){\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2414,
-      "length": 26,
-      "value": "\"if (root.shadowRoot) {\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2455,
-      "length": 40,
-      "value": "\"children = root.shadowRoot.children;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2510,
-      "length": 30,
-      "value": "\"node.type = 'SHADOW_ROOT';\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2555,
-      "length": 12,
-      "value": "\"} else {\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2582,
-      "length": 29,
-      "value": "\"children = root.children;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2626,
-      "length": 5,
-      "value": "\"}\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2646,
-      "length": 5,
-      "value": "\"}\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2666,
-      "length": 59,
-      "value": "\"for (let child = 0; child < children.length; child++) {\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2740,
-      "length": 66,
-      "value": "\"node.children.push(jinyFetchClientHierarchy(children[child]));\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2821,
-      "length": 5,
-      "value": "\"}\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2833,
-      "length": 13,
-      "value": "\"        }\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2853,
-      "length": 24,
-      "value": "\"        return node;\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2884,
-      "length": 9,
-      "value": "\"    }\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2900,
-      "length": 87,
-      "value": "\"    var layout = jinyFetchClientHierarchy(document.getElementsByTagName('html')[0])\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2994,
-      "length": 37,
-      "value": "\"    return JSON.stringify(layout)\n\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
-      "kind": "StringLiteral",
-      "offset": 3038,
-      "length": 90,
-      "value": "\"}(${webviewScale},${totalScreenHeight},${totalScreenWidth},${topMargin},${leftMargin}));\""
+      "length": 3517,
+      "value": "\"(function (webviewScale, totalScreenHeight, totalScreenWidth, topMargin = 0, leftMargin = 0) {\n    var jinyFetchClientHierarchy = function (root) {\n        function generateUUID() {\n            if (typeof crypto !== 'undefined' && crypto.randomUUID) {\n                return crypto.randomUUID();\n            }\n\n            \/\/ fallback: getRandomValues\n            if (typeof crypto !== 'undefined' && crypto.getRandomValues) {\n                const bytes = new Uint8Array(16);\n                crypto.getRandomValues(bytes);\n\n                bytes[6] = (bytes[6] & 0x0f) | 0x40;\n                bytes[8] = (bytes[8] & 0x3f) | 0x80;\n\n                return [...bytes].map((b, i) => {\n                    const hex = b.toString(16).padStart(2, '0');\n                    return ([4, 6, 8, 10].includes(i) ? '-' : '') + hex;\n                }).join('');\n            }\n\n            \/\/ Last fallback: Math.random()\n            return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(\/[xy]\/g, function (c) {\n                const r = Math.random() * 16 | 0;\n                return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);\n            });\n        }\n        var node = {};\n        if (root !== undefined) {\n            node.uuid = generateUUID();\n            node.tag = root.tagName.toLowerCase();\n            var attributeNames = root.getAttributeNames();\n            for (var i = 0; i < attributeNames.length; i++) {\n                node[attributeNames[i]] = root.getAttribute(attributeNames[i]);\n            }\n            var viewportWidth = screen.width;\n            var viewportHeight = screen.height;\n            node.bounds = root.getClientRects()[0];\n            if (node.bounds !== undefined) {\n                node.normalised_bounds = {};\n                node.normalised_bounds.top = (node.bounds.top * totalScreenHeight * webviewScale) \/ viewportHeight + topMargin;\n                node.normalised_bounds.bottom = (node.bounds.bottom * totalScreenHeight * webviewScale) \/ viewportHeight + topMargin;\n                node.normalised_bounds.left = (node.bounds.left * totalScreenWidth * webviewScale) \/ viewportWidth + leftMargin;\n                node.normalised_bounds.right = (node.bounds.right * totalScreenWidth * webviewScale) \/ viewportWidth + leftMargin;\n            }\n            node.innerText = root.innerText;\n            node.value = root.value;\n            node.children = [];\n            let children = [];\n            if (typeof root.assignedElements === 'function') {\n                children = root.assignedElements();\n            }\n            if (children.length === 0) {\n                if (root.shadowRoot) {\n                    children = root.shadowRoot.children;\n                    node.type = 'SHADOW_ROOT';\n                } else {\n                    children = root.children;\n                }\n            }\n            for (let child = 0; child < children.length; child++) {\n                node.children.push(jinyFetchClientHierarchy(children[child]));\n            }\n        }\n        return node;\n    }\n    var layout = jinyFetchClientHierarchy(document.getElementsByTagName('html')[0])\n    return JSON.stringify(layout)\n}(${webviewScale},${totalScreenHeight},${totalScreenWidth},${topMargin},${leftMargin}));\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
       "kind": "Dictionary",
-      "offset": 4411,
+      "offset": 5078,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Models\/LeapHierarchyObject.swift",
       "kind": "Array",
-      "offset": 4511,
+      "offset": 5178,
       "length": 2,
       "value": "[]"
     },
@@ -10712,77 +10474,63 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 1959,
-      "length": 23,
-      "value": "\"LeapCoreSDK.LeapStartSDKObserverLog\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
-      "kind": "StringLiteral",
-      "offset": 2499,
-      "length": 29,
-      "value": "\"LeapCoreSDK.LeapSDKIntegrationObserverLog\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
-      "kind": "StringLiteral",
-      "offset": 3446,
+      "offset": 2838,
       "length": 27,
       "value": "\"LeapCoreSDK.LeapEmbedProjectObserverLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 3400,
       "length": 24,
       "value": "\"LeapCoreSDK.LeapAppLocaleObserverLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 4729,
+      "offset": 4013,
       "length": 16,
       "value": "\"LeapCoreSDK.LeapSetUserIdLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 5297,
+      "offset": 4581,
       "length": 20,
       "value": "\"LeapCoreSDK.LeapFlushObserverLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 5930,
+      "offset": 5214,
       "length": 27,
       "value": "\"LeapCoreSDK.LeapAssetDownloadStartedLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 6459,
+      "offset": 5743,
       "length": 29,
       "value": "\"LeapCoreSDK.LeapAssetDownloadCompletedLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 7406,
+      "offset": 6690,
       "length": 28,
       "value": "\"LeapCoreSDK.LeapViewDidAppearObserverLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 8002,
+      "offset": 7286,
       "length": 31,
       "value": "\"LeapCoreSDK.LeapViewDidDisappearObserverLog\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapObserverModels.swift",
       "kind": "StringLiteral",
-      "offset": 8601,
+      "offset": 7885,
       "length": 38,
       "value": "\"LeapCoreSDK.LeapDeviceOrientationChangeObserverLog\""
     },
@@ -10810,98 +10558,98 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 509,
+      "offset": 646,
       "length": 10,
       "value": "\"\/whatfix\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 814,
+      "offset": 951,
       "length": 30,
       "value": "\"https:\/\/leap-api.whatfix.com\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3393,
+      "offset": 5140,
       "length": 13,
       "value": "\"x-client-id\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 5190,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3496,
+      "offset": 5243,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3544,
+      "offset": 5291,
       "length": 11,
       "value": "\"x-leap-id\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3591,
+      "offset": 5338,
       "length": 18,
       "value": "\"x-jiny-client-id\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3647,
+      "offset": 5394,
       "length": 20,
       "value": "\"x-app-version-code\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3705,
+      "offset": 5452,
       "length": 20,
       "value": "\"x-app-version-name\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3765,
+      "offset": 5512,
       "length": 22,
       "value": "\"x-client-log-version\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3851,
+      "offset": 5598,
       "length": 13,
       "value": "\"isExecuting\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3897,
+      "offset": 5644,
       "length": 12,
       "value": "\"isFinished\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 3941,
+      "offset": 5688,
       "length": 21,
       "value": "\"Leap Download Queue\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 4000,
+      "offset": 5747,
       "length": 6,
       "value": "\"Leap\""
     },
