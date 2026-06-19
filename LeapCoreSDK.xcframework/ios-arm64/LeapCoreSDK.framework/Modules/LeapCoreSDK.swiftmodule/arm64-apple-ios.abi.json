@@ -2264,6 +2264,618 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "LeapAssetDownloadStatusManager",
+        "printedName": "LeapAssetDownloadStatusManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LeapAssetDownloadStatusManager",
+                "printedName": "LeapCoreSDK.LeapAssetDownloadStatusManager",
+                "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC6sharedACvpZ",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC6sharedACvpZ",
+            "moduleName": "LeapCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LeapAssetDownloadStatusManager",
+                    "printedName": "LeapCoreSDK.LeapAssetDownloadStatusManager",
+                    "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC6sharedACvgZ",
+                "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC6sharedACvgZ",
+                "moduleName": "LeapCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationName",
+            "printedName": "notificationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC16notificationNameSSvpZ",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC16notificationNameSSvpZ",
+            "moduleName": "LeapCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC16notificationNameSSvgZ",
+                "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC16notificationNameSSvgZ",
+                "moduleName": "LeapCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "successCode",
+            "printedName": "successCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC11successCodeSivpZ",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC11successCodeSivpZ",
+            "moduleName": "LeapCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC11successCodeSivgZ",
+                "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC11successCodeSivgZ",
+                "moduleName": "LeapCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkErrorCode",
+            "printedName": "networkErrorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC16networkErrorCodeSivpZ",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC16networkErrorCodeSivpZ",
+            "moduleName": "LeapCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC16networkErrorCodeSivgZ",
+                "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC16networkErrorCodeSivgZ",
+                "moduleName": "LeapCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileWriteErrorCode",
+            "printedName": "fileWriteErrorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC18fileWriteErrorCodeSivpZ",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC18fileWriteErrorCodeSivpZ",
+            "moduleName": "LeapCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC18fileWriteErrorCodeSivgZ",
+                "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC18fileWriteErrorCodeSivgZ",
+                "moduleName": "LeapCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerAssets",
+            "printedName": "registerAssets(urls:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC14registerAssets4urlsySaySSG_tF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC14registerAssets4urlsySaySSG_tF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startBulkDownload",
+            "printedName": "startBulkDownload(source:urls:priority:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC09startBulkE06source4urls8priorityySS_SaySSGSStF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC09startBulkE06source4urls8priorityySS_SaySSGSStF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markDownloading",
+            "printedName": "markDownloading(url:filePath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC15markDownloading3url8filePathySS_SStF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC15markDownloading3url8filePathySS_SStF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markDownloading",
+            "printedName": "markDownloading(url:filePath:attempt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC15markDownloading3url8filePath7attemptySS_SSSitF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC15markDownloading3url8filePath7attemptySS_SSSitF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markDownloaded",
+            "printedName": "markDownloaded(url:filePath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC14markDownloaded3url8filePathySS_SStF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC14markDownloaded3url8filePathySS_SStF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markDownloaded",
+            "printedName": "markDownloaded(url:filePath:attempt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC14markDownloaded3url8filePath7attemptySS_SSSitF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC14markDownloaded3url8filePath7attemptySS_SSSitF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markFailed",
+            "printedName": "markFailed(url:filePath:errorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC10markFailed3url8filePath9errorCodeySS_SSSitF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC10markFailed3url8filePath9errorCodeySS_SSSitF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "markFailed",
+            "printedName": "markFailed(url:filePath:errorCode:attempt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC10markFailed3url8filePath9errorCode7attemptySS_SSS2itF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC10markFailed3url8filePath9errorCode7attemptySS_SSS2itF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC5clearyyF",
+            "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC5clearyyF",
+            "moduleName": "LeapCoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11LeapCoreSDK0A26AssetDownloadStatusManagerC",
+        "mangledName": "$s11LeapCoreSDK0A26AssetDownloadStatusManagerC",
+        "moduleName": "LeapCoreSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LeapCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -9803,6 +10415,62 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 32,
+      "value": "\"LeapAssetDownloadStatusUpdated\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 392,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 36,
+      "value": "\"is.leap.assetDownloadStatusManager\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "Dictionary",
+      "offset": 581,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "Dictionary",
+      "offset": 644,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/LeapAssetDownloadStatusManager.swift",
+      "kind": "Dictionary",
+      "offset": 708,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Webview Handler\/LeapWebviewHandler.swift",
       "kind": "Array",
       "offset": 996,
@@ -10673,84 +11341,84 @@
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5483,
+      "offset": 5479,
       "length": 13,
       "value": "\"x-client-id\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5533,
+      "offset": 5529,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5586,
+      "offset": 5582,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5634,
+      "offset": 5630,
       "length": 11,
       "value": "\"x-leap-id\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5681,
+      "offset": 5677,
       "length": 18,
       "value": "\"x-jiny-client-id\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5737,
+      "offset": 5733,
       "length": 20,
       "value": "\"x-app-version-code\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5795,
+      "offset": 5791,
       "length": 20,
       "value": "\"x-app-version-name\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5855,
+      "offset": 5851,
       "length": 22,
       "value": "\"x-client-log-version\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 5937,
       "length": 13,
       "value": "\"isExecuting\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 5987,
+      "offset": 5983,
       "length": 12,
       "value": "\"isFinished\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 6031,
+      "offset": 6027,
       "length": 21,
       "value": "\"Leap Download Queue\""
     },
     {
       "filePath": "\/Users\/jenkins\/workspace\/mobile\/iOS\/native-sdk-release\/ios-source\/LeapCore\/Utils\/LeapService.swift",
       "kind": "StringLiteral",
-      "offset": 6090,
+      "offset": 6086,
       "length": 6,
       "value": "\"Leap\""
     },
